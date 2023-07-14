@@ -1,0 +1,10 @@
+settings_dir /Users/tahi/zwv/svc_bs_developer/settings
+builds_dir /Users/tahi/zwv/svc_bs_developer/builds/hmt
+release_dir /Users/tahi/zwv/svc_bs_developer/release
+version_dir /Users/tahi/zwv/svc_bs_developer/deploy
+
+#settings_dir /Users/tahi/zwv/svc_bs_developer/tester/settings
+#builds_dir /Users/tahi/zwv/svc_bs_developer/tester/builds
+#release_dir /Users/tahi/zwv/svc_bs_developer/tester/release
+
+

@@ -1,0 +1,13 @@
+#
+# build hmt update script
+# command kubectl set image action 
+#
+# 引数
+#   PDA-230:req:チケット番号(exp:WHAT-1, WSD-1,)
+#   svc:req:サーバーコード(exp:svc, svc,)
+#   :req:メジャー(exp: v1 or v2)
+#   :req:バージョン(exp:
+#     新しいバージョン(tiny):自動設定-->"new"と入力
+#     新しいバージョン(minor):既存2.0.*-->"2.1"と入力
+#     最新バージョン:自動設定-->"latest"と入力
+#     過去バージョン:メジャー、マイナータイニーを入力-->exp: "2.0.1"と入力

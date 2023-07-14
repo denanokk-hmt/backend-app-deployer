@@ -1,0 +1,9 @@
+#!/bin/bash
+
+SYSD=$(pwd)
+tmp=${SYSD}/TEMP/tmp
+
+
+. ./space_reject.sh || exit 1
+
+SPACE_REJECT $1

@@ -1,0 +1,1914 @@
+tahi-no-MacBook-Pro-3:initaial_set_up2 tahi$ sh builds_release_v.sh 
+---------------------
+boarding v1
+0
+/Users/tahi/zwv/svc_bs_developer/builds/hmt/boarding
+ -------master------
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Already up to date.
+fatal: A branch named 'master_v1' already exists.
+Branch 'master_v1' set up to track remote branch 'master_v1' from 'origin'.
+Everything up-to-date
+ -------develop------
+Switched to branch 'master_v1'
+Your branch is up to date with 'origin/master_v1'.
+Already up to date.
+fatal: A branch named 'release/develop_v1_NOBODY' already exists.
+Branch 'release/develop_v1_NOBODY' set up to track remote branch 'release/develop_v1_NOBODY' from 'origin'.
+Everything up-to-date
+Already on 'master_v1'
+Your branch is up to date with 'origin/master_v1'.
+Already up to date.
+fatal: A branch named 'develop/master_v1' already exists.
+Branch 'develop/master_v1' set up to track remote branch 'develop/master_v1' from 'origin'.
+Everything up-to-date
+ -------staging------
+Switched to branch 'develop/master_v1'
+Your branch is up to date with 'origin/develop/master_v1'.
+Already up to date.
+fatal: A branch named 'release/staging_v1' already exists.
+Branch 'release/staging_v1' set up to track remote branch 'release/staging_v1' from 'origin'.
+Everything up-to-date
+Already on 'develop/master_v1'
+Your branch is up to date with 'origin/develop/master_v1'.
+Already up to date.
+fatal: A branch named 'staging/master_v1' already exists.
+Branch 'staging/master_v1' set up to track remote branch 'staging/master_v1' from 'origin'.
+Everything up-to-date
+ -------production------
+Switched to branch 'master_v1'
+Your branch is up to date with 'origin/master_v1'.
+Already up to date.
+fatal: A branch named 'release/production_1.1.13' already exists.
+Branch 'release/production_1.1.13' set up to track remote branch 'release/production_1.1.13' from 'origin'.
+Everything up-to-date
+Switched to branch 'release/production_1.1.13'
+Your branch is up to date with 'origin/release/production_1.1.13'.
+fatal: tag '1.1.12_b_1' already exists
+/Users/tahi/zwv/svc_bs_developer/release/release-hmt-boarding
+ -------master------
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Already up to date.
+Switched to a new branch 'master_v1'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for master_v1:
+remote:   https://bitbucket.org/svc_bs_devloper/release-hmt-boarding/pull-requests/new?source=master_v1&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/release-hmt-boarding.git
+ * [new branch]      master_v1 -> master_v1
+Branch 'master_v1' set up to track remote branch 'master_v1' from 'origin'.
+ -------develop------
+Already on 'master_v1'
+Your branch is up to date with 'origin/master_v1'.
+Already up to date.
+Switched to a new branch 'release/develop_v1_NOBODY'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for release/develop_v1_NOBODY:
+remote:   https://bitbucket.org/svc_bs_devloper/release-hmt-boarding/pull-requests/new?source=release/develop_v1_NOBODY&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/release-hmt-boarding.git
+ * [new branch]      release/develop_v1_NOBODY -> release/develop_v1_NOBODY
+Branch 'release/develop_v1_NOBODY' set up to track remote branch 'release/develop_v1_NOBODY' from 'origin'.
+Switched to branch 'master_v1'
+Your branch is up to date with 'origin/master_v1'.
+Already up to date.
+Switched to a new branch 'develop/master_v1'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for develop/master_v1:
+remote:   https://bitbucket.org/svc_bs_devloper/release-hmt-boarding/pull-requests/new?source=develop/master_v1&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/release-hmt-boarding.git
+ * [new branch]      develop/master_v1 -> develop/master_v1
+Branch 'develop/master_v1' set up to track remote branch 'develop/master_v1' from 'origin'.
+ -------staging------
+Already on 'develop/master_v1'
+Your branch is up to date with 'origin/develop/master_v1'.
+Already up to date.
+Switched to a new branch 'release/staging_v1'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for release/staging_v1:
+remote:   https://bitbucket.org/svc_bs_devloper/release-hmt-boarding/pull-requests/new?source=release/staging_v1&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/release-hmt-boarding.git
+ * [new branch]      release/staging_v1 -> release/staging_v1
+Branch 'release/staging_v1' set up to track remote branch 'release/staging_v1' from 'origin'.
+Switched to branch 'develop/master_v1'
+Your branch is up to date with 'origin/develop/master_v1'.
+Already up to date.
+Switched to a new branch 'staging/master_v1'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for staging/master_v1:
+remote:   https://bitbucket.org/svc_bs_devloper/release-hmt-boarding/pull-requests/new?source=staging/master_v1&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/release-hmt-boarding.git
+ * [new branch]      staging/master_v1 -> staging/master_v1
+Branch 'staging/master_v1' set up to track remote branch 'staging/master_v1' from 'origin'.
+ -------production------
+Switched to branch 'master_v1'
+Your branch is up to date with 'origin/master_v1'.
+Already up to date.
+Switched to a new branch 'release/production_1.1.13'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for release/production_1.1.13:
+remote:   https://bitbucket.org/svc_bs_devloper/release-hmt-boarding/pull-requests/new?source=release/production_1.1.13&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/release-hmt-boarding.git
+ * [new branch]      release/production_1.1.13 -> release/production_1.1.13
+Branch 'release/production_1.1.13' set up to track remote branch 'release/production_1.1.13' from 'origin'.
+Already on 'release/production_1.1.13'
+Your branch is up to date with 'origin/release/production_1.1.13'.
+Total 0 (delta 0), reused 0 (delta 0)
+To bitbucket.org:svc_bs_devloper/release-hmt-boarding.git
+ * [new tag]         1.1.12_b_1 -> 1.1.12_b_1
+---------------------
+keel v1
+0
+/Users/tahi/zwv/svc_bs_developer/builds/hmt/keel
+ -------master------
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+remote: Counting objects: 10, done.
+remote: Compressing objects: 100% (10/10), done.
+remote: Total 10 (delta 8), reused 0 (delta 0)
+Unpacking objects: 100% (10/10), done.
+From bitbucket.org:svc_bs_devloper/keel
+ * [new branch]        WE1-34_invoke_youtube       -> origin/WE1-34_invoke_youtube
+ * [new branch]        develop/master_2.0.0_V2-382 -> origin/develop/master_2.0.0_V2-382
+Already up to date.
+Switched to a new branch 'master_v1'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for master_v1:
+remote:   https://bitbucket.org/svc_bs_devloper/keel/pull-requests/new?source=master_v1&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/keel.git
+ * [new branch]        master_v1 -> master_v1
+Branch 'master_v1' set up to track remote branch 'master_v1' from 'origin'.
+ -------develop------
+Already on 'master_v1'
+Your branch is up to date with 'origin/master_v1'.
+Already up to date.
+Switched to a new branch 'release/develop_v1_NOBODY'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for release/develop_v1_NOBODY:
+remote:   https://bitbucket.org/svc_bs_devloper/keel/pull-requests/new?source=release/develop_v1_NOBODY&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/keel.git
+ * [new branch]        release/develop_v1_NOBODY -> release/develop_v1_NOBODY
+Branch 'release/develop_v1_NOBODY' set up to track remote branch 'release/develop_v1_NOBODY' from 'origin'.
+Switched to branch 'master_v1'
+Your branch is up to date with 'origin/master_v1'.
+Already up to date.
+Switched to a new branch 'develop/master_v1'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for develop/master_v1:
+remote:   https://bitbucket.org/svc_bs_devloper/keel/pull-requests/new?source=develop/master_v1&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/keel.git
+ * [new branch]        develop/master_v1 -> develop/master_v1
+Branch 'develop/master_v1' set up to track remote branch 'develop/master_v1' from 'origin'.
+ -------staging------
+Already on 'develop/master_v1'
+Your branch is up to date with 'origin/develop/master_v1'.
+Already up to date.
+Switched to a new branch 'release/staging_v1'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for release/staging_v1:
+remote:   https://bitbucket.org/svc_bs_devloper/keel/pull-requests/new?source=release/staging_v1&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/keel.git
+ * [new branch]        release/staging_v1 -> release/staging_v1
+Branch 'release/staging_v1' set up to track remote branch 'release/staging_v1' from 'origin'.
+Switched to branch 'develop/master_v1'
+Your branch is up to date with 'origin/develop/master_v1'.
+Already up to date.
+Switched to a new branch 'staging/master_v1'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for staging/master_v1:
+remote:   https://bitbucket.org/svc_bs_devloper/keel/pull-requests/new?source=staging/master_v1&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/keel.git
+ * [new branch]        staging/master_v1 -> staging/master_v1
+Branch 'staging/master_v1' set up to track remote branch 'staging/master_v1' from 'origin'.
+ -------production------
+Switched to branch 'master_v1'
+Your branch is up to date with 'origin/master_v1'.
+Already up to date.
+Switched to a new branch 'release/production_1.1.13'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for release/production_1.1.13:
+remote:   https://bitbucket.org/svc_bs_devloper/keel/pull-requests/new?source=release/production_1.1.13&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/keel.git
+ * [new branch]        release/production_1.1.13 -> release/production_1.1.13
+Branch 'release/production_1.1.13' set up to track remote branch 'release/production_1.1.13' from 'origin'.
+Already on 'release/production_1.1.13'
+Your branch is up to date with 'origin/release/production_1.1.13'.
+Total 0 (delta 0), reused 0 (delta 0)
+To bitbucket.org:svc_bs_devloper/keel.git
+ * [new tag]           1.1.12_k_1 -> 1.1.12_k_1
+/Users/tahi/zwv/svc_bs_developer/release/release-hmt-keel
+ -------master------
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Already up to date.
+Switched to a new branch 'master_v1'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for master_v1:
+remote:   https://bitbucket.org/svc_bs_devloper/release-hmt-keel/pull-requests/new?source=master_v1&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/release-hmt-keel.git
+ * [new branch]      master_v1 -> master_v1
+Branch 'master_v1' set up to track remote branch 'master_v1' from 'origin'.
+ -------develop------
+Already on 'master_v1'
+Your branch is up to date with 'origin/master_v1'.
+Already up to date.
+Switched to a new branch 'release/develop_v1_NOBODY'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for release/develop_v1_NOBODY:
+remote:   https://bitbucket.org/svc_bs_devloper/release-hmt-keel/pull-requests/new?source=release/develop_v1_NOBODY&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/release-hmt-keel.git
+ * [new branch]      release/develop_v1_NOBODY -> release/develop_v1_NOBODY
+Branch 'release/develop_v1_NOBODY' set up to track remote branch 'release/develop_v1_NOBODY' from 'origin'.
+Switched to branch 'master_v1'
+Your branch is up to date with 'origin/master_v1'.
+Already up to date.
+Switched to a new branch 'develop/master_v1'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for develop/master_v1:
+remote:   https://bitbucket.org/svc_bs_devloper/release-hmt-keel/pull-requests/new?source=develop/master_v1&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/release-hmt-keel.git
+ * [new branch]      develop/master_v1 -> develop/master_v1
+Branch 'develop/master_v1' set up to track remote branch 'develop/master_v1' from 'origin'.
+ -------staging------
+Already on 'develop/master_v1'
+Your branch is up to date with 'origin/develop/master_v1'.
+Already up to date.
+Switched to a new branch 'release/staging_v1'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for release/staging_v1:
+remote:   https://bitbucket.org/svc_bs_devloper/release-hmt-keel/pull-requests/new?source=release/staging_v1&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/release-hmt-keel.git
+ * [new branch]      release/staging_v1 -> release/staging_v1
+Branch 'release/staging_v1' set up to track remote branch 'release/staging_v1' from 'origin'.
+Switched to branch 'develop/master_v1'
+Your branch is up to date with 'origin/develop/master_v1'.
+Already up to date.
+Switched to a new branch 'staging/master_v1'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for staging/master_v1:
+remote:   https://bitbucket.org/svc_bs_devloper/release-hmt-keel/pull-requests/new?source=staging/master_v1&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/release-hmt-keel.git
+ * [new branch]      staging/master_v1 -> staging/master_v1
+Branch 'staging/master_v1' set up to track remote branch 'staging/master_v1' from 'origin'.
+ -------production------
+Switched to branch 'master_v1'
+Your branch is up to date with 'origin/master_v1'.
+Already up to date.
+Switched to a new branch 'release/production_1.1.13'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for release/production_1.1.13:
+remote:   https://bitbucket.org/svc_bs_devloper/release-hmt-keel/pull-requests/new?source=release/production_1.1.13&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/release-hmt-keel.git
+ * [new branch]      release/production_1.1.13 -> release/production_1.1.13
+Branch 'release/production_1.1.13' set up to track remote branch 'release/production_1.1.13' from 'origin'.
+Already on 'release/production_1.1.13'
+Your branch is up to date with 'origin/release/production_1.1.13'.
+Total 0 (delta 0), reused 0 (delta 0)
+To bitbucket.org:svc_bs_devloper/release-hmt-keel.git
+ * [new tag]         1.1.12_k_1 -> 1.1.12_k_1
+---------------------
+asker v1
+0
+/Users/tahi/zwv/svc_bs_developer/builds/hmt/asker
+ -------master------
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+remote: Counting objects: 4, done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 4 (delta 0), reused 0 (delta 0)
+Unpacking objects: 100% (4/4), done.
+From bitbucket.org:svc_bs_devloper/asker
+ + 195e9fe...b40fa1f develop/master_2.0.0_V2-382 -> origin/develop/master_2.0.0_V2-382  (forced update)
+Already up to date.
+Switched to a new branch 'master_v1'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for master_v1:
+remote:   https://bitbucket.org/svc_bs_devloper/asker/pull-requests/new?source=master_v1&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/asker.git
+ * [new branch]      master_v1 -> master_v1
+Branch 'master_v1' set up to track remote branch 'master_v1' from 'origin'.
+ -------develop------
+Already on 'master_v1'
+Your branch is up to date with 'origin/master_v1'.
+Already up to date.
+Switched to a new branch 'release/develop_v1_NOBODY'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for release/develop_v1_NOBODY:
+remote:   https://bitbucket.org/svc_bs_devloper/asker/pull-requests/new?source=release/develop_v1_NOBODY&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/asker.git
+ * [new branch]      release/develop_v1_NOBODY -> release/develop_v1_NOBODY
+Branch 'release/develop_v1_NOBODY' set up to track remote branch 'release/develop_v1_NOBODY' from 'origin'.
+Switched to branch 'master_v1'
+Your branch is up to date with 'origin/master_v1'.
+Already up to date.
+Switched to a new branch 'develop/master_v1'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for develop/master_v1:
+remote:   https://bitbucket.org/svc_bs_devloper/asker/pull-requests/new?source=develop/master_v1&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/asker.git
+ * [new branch]      develop/master_v1 -> develop/master_v1
+Branch 'develop/master_v1' set up to track remote branch 'develop/master_v1' from 'origin'.
+ -------staging------
+Already on 'develop/master_v1'
+Your branch is up to date with 'origin/develop/master_v1'.
+Already up to date.
+Switched to a new branch 'release/staging_v1'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for release/staging_v1:
+remote:   https://bitbucket.org/svc_bs_devloper/asker/pull-requests/new?source=release/staging_v1&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/asker.git
+ * [new branch]      release/staging_v1 -> release/staging_v1
+Branch 'release/staging_v1' set up to track remote branch 'release/staging_v1' from 'origin'.
+Switched to branch 'develop/master_v1'
+Your branch is up to date with 'origin/develop/master_v1'.
+Already up to date.
+Switched to a new branch 'staging/master_v1'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for staging/master_v1:
+remote:   https://bitbucket.org/svc_bs_devloper/asker/pull-requests/new?source=staging/master_v1&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/asker.git
+ * [new branch]      staging/master_v1 -> staging/master_v1
+Branch 'staging/master_v1' set up to track remote branch 'staging/master_v1' from 'origin'.
+ -------production------
+Switched to branch 'master_v1'
+Your branch is up to date with 'origin/master_v1'.
+Already up to date.
+Switched to a new branch 'release/production_1.1.13'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for release/production_1.1.13:
+remote:   https://bitbucket.org/svc_bs_devloper/asker/pull-requests/new?source=release/production_1.1.13&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/asker.git
+ * [new branch]      release/production_1.1.13 -> release/production_1.1.13
+Branch 'release/production_1.1.13' set up to track remote branch 'release/production_1.1.13' from 'origin'.
+Already on 'release/production_1.1.13'
+Your branch is up to date with 'origin/release/production_1.1.13'.
+Total 0 (delta 0), reused 0 (delta 0)
+To bitbucket.org:svc_bs_devloper/asker.git
+ * [new tag]         1.1.12_a_1 -> 1.1.12_a_1
+/Users/tahi/zwv/svc_bs_developer/release/release-hmt-asker
+ -------master------
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Already up to date.
+Switched to a new branch 'master_v1'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for master_v1:
+remote:   https://bitbucket.org/svc_bs_devloper/release-hmt-asker/pull-requests/new?source=master_v1&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/release-hmt-asker.git
+ * [new branch]      master_v1 -> master_v1
+Branch 'master_v1' set up to track remote branch 'master_v1' from 'origin'.
+ -------develop------
+Already on 'master_v1'
+Your branch is up to date with 'origin/master_v1'.
+Already up to date.
+Switched to a new branch 'release/develop_v1_NOBODY'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for release/develop_v1_NOBODY:
+remote:   https://bitbucket.org/svc_bs_devloper/release-hmt-asker/pull-requests/new?source=release/develop_v1_NOBODY&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/release-hmt-asker.git
+ * [new branch]      release/develop_v1_NOBODY -> release/develop_v1_NOBODY
+Branch 'release/develop_v1_NOBODY' set up to track remote branch 'release/develop_v1_NOBODY' from 'origin'.
+Switched to branch 'master_v1'
+Your branch is up to date with 'origin/master_v1'.
+Already up to date.
+Switched to a new branch 'develop/master_v1'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for develop/master_v1:
+remote:   https://bitbucket.org/svc_bs_devloper/release-hmt-asker/pull-requests/new?source=develop/master_v1&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/release-hmt-asker.git
+ * [new branch]      develop/master_v1 -> develop/master_v1
+Branch 'develop/master_v1' set up to track remote branch 'develop/master_v1' from 'origin'.
+ -------staging------
+Already on 'develop/master_v1'
+Your branch is up to date with 'origin/develop/master_v1'.
+Already up to date.
+Switched to a new branch 'release/staging_v1'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for release/staging_v1:
+remote:   https://bitbucket.org/svc_bs_devloper/release-hmt-asker/pull-requests/new?source=release/staging_v1&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/release-hmt-asker.git
+ * [new branch]      release/staging_v1 -> release/staging_v1
+Branch 'release/staging_v1' set up to track remote branch 'release/staging_v1' from 'origin'.
+Switched to branch 'develop/master_v1'
+Your branch is up to date with 'origin/develop/master_v1'.
+Already up to date.
+Switched to a new branch 'staging/master_v1'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for staging/master_v1:
+remote:   https://bitbucket.org/svc_bs_devloper/release-hmt-asker/pull-requests/new?source=staging/master_v1&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/release-hmt-asker.git
+ * [new branch]      staging/master_v1 -> staging/master_v1
+Branch 'staging/master_v1' set up to track remote branch 'staging/master_v1' from 'origin'.
+ -------production------
+Switched to branch 'master_v1'
+Your branch is up to date with 'origin/master_v1'.
+Already up to date.
+Switched to a new branch 'release/production_1.1.13'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for release/production_1.1.13:
+remote:   https://bitbucket.org/svc_bs_devloper/release-hmt-asker/pull-requests/new?source=release/production_1.1.13&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/release-hmt-asker.git
+ * [new branch]      release/production_1.1.13 -> release/production_1.1.13
+Branch 'release/production_1.1.13' set up to track remote branch 'release/production_1.1.13' from 'origin'.
+Already on 'release/production_1.1.13'
+Your branch is up to date with 'origin/release/production_1.1.13'.
+Total 0 (delta 0), reused 0 (delta 0)
+To bitbucket.org:svc_bs_devloper/release-hmt-asker.git
+ * [new tag]         1.1.12_a_1 -> 1.1.12_a_1
+---------------------
+newest v1
+0
+/Users/tahi/zwv/svc_bs_developer/builds/hmt/newest
+ -------master------
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+remote: Counting objects: 1, done.
+remote: Total 1 (delta 0), reused 0 (delta 0)
+Unpacking objects: 100% (1/1), done.
+From bitbucket.org:svc_bs_devloper/newest
+   b0df5f0..b8d8077  master_v2  -> origin/master_v2
+Already up to date.
+fatal: A branch named 'master_v1' already exists.
+Branch 'master_v1' set up to track remote branch 'master_v1' from 'origin'.
+Everything up-to-date
+ -------develop------
+Switched to branch 'master_v1'
+Your branch is up to date with 'origin/master_v1'.
+Already up to date.
+fatal: A branch named 'release/develop_v1_NOBODY' already exists.
+Branch 'release/develop_v1_NOBODY' set up to track remote branch 'release/develop_v1_NOBODY' from 'origin'.
+Everything up-to-date
+Already on 'master_v1'
+Your branch is up to date with 'origin/master_v1'.
+Already up to date.
+fatal: A branch named 'develop/master_v1' already exists.
+Branch 'develop/master_v1' set up to track remote branch 'develop/master_v1' from 'origin'.
+Everything up-to-date
+ -------staging------
+Switched to branch 'develop/master_v1'
+Your branch is up to date with 'origin/develop/master_v1'.
+Already up to date.
+fatal: A branch named 'release/staging_v1' already exists.
+Branch 'release/staging_v1' set up to track remote branch 'release/staging_v1' from 'origin'.
+Everything up-to-date
+Already on 'develop/master_v1'
+Your branch is up to date with 'origin/develop/master_v1'.
+Already up to date.
+fatal: A branch named 'staging/master_v1' already exists.
+Branch 'staging/master_v1' set up to track remote branch 'staging/master_v1' from 'origin'.
+Everything up-to-date
+ -------production------
+Switched to branch 'master_v1'
+Your branch is up to date with 'origin/master_v1'.
+Already up to date.
+fatal: A branch named 'release/production_1.1.13' already exists.
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for release/production_1.1.13:
+remote:   https://bitbucket.org/svc_bs_devloper/newest/pull-requests/new?source=release/production_1.1.13&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/newest.git
+ * [new branch]      release/production_1.1.13 -> release/production_1.1.13
+Branch 'release/production_1.1.13' set up to track remote branch 'release/production_1.1.13' from 'origin'.
+Switched to branch 'release/production_1.1.13'
+Your branch is up to date with 'origin/release/production_1.1.13'.
+fatal: tag '1.1.10_n_1' already exists
+/Users/tahi/zwv/svc_bs_developer/release/release-hmt-newest
+ -------master------
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Already up to date.
+Switched to a new branch 'master_v1'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for master_v1:
+remote:   https://bitbucket.org/svc_bs_devloper/release-hmt-newest/pull-requests/new?source=master_v1&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/release-hmt-newest.git
+ * [new branch]      master_v1 -> master_v1
+Branch 'master_v1' set up to track remote branch 'master_v1' from 'origin'.
+ -------develop------
+Already on 'master_v1'
+Your branch is up to date with 'origin/master_v1'.
+Already up to date.
+Switched to a new branch 'release/develop_v1_NOBODY'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for release/develop_v1_NOBODY:
+remote:   https://bitbucket.org/svc_bs_devloper/release-hmt-newest/pull-requests/new?source=release/develop_v1_NOBODY&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/release-hmt-newest.git
+ * [new branch]      release/develop_v1_NOBODY -> release/develop_v1_NOBODY
+Branch 'release/develop_v1_NOBODY' set up to track remote branch 'release/develop_v1_NOBODY' from 'origin'.
+Switched to branch 'master_v1'
+Your branch is up to date with 'origin/master_v1'.
+Already up to date.
+Switched to a new branch 'develop/master_v1'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for develop/master_v1:
+remote:   https://bitbucket.org/svc_bs_devloper/release-hmt-newest/pull-requests/new?source=develop/master_v1&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/release-hmt-newest.git
+ * [new branch]      develop/master_v1 -> develop/master_v1
+Branch 'develop/master_v1' set up to track remote branch 'develop/master_v1' from 'origin'.
+ -------staging------
+Already on 'develop/master_v1'
+Your branch is up to date with 'origin/develop/master_v1'.
+Already up to date.
+Switched to a new branch 'release/staging_v1'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for release/staging_v1:
+remote:   https://bitbucket.org/svc_bs_devloper/release-hmt-newest/pull-requests/new?source=release/staging_v1&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/release-hmt-newest.git
+ * [new branch]      release/staging_v1 -> release/staging_v1
+Branch 'release/staging_v1' set up to track remote branch 'release/staging_v1' from 'origin'.
+Switched to branch 'develop/master_v1'
+Your branch is up to date with 'origin/develop/master_v1'.
+Already up to date.
+Switched to a new branch 'staging/master_v1'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for staging/master_v1:
+remote:   https://bitbucket.org/svc_bs_devloper/release-hmt-newest/pull-requests/new?source=staging/master_v1&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/release-hmt-newest.git
+ * [new branch]      staging/master_v1 -> staging/master_v1
+Branch 'staging/master_v1' set up to track remote branch 'staging/master_v1' from 'origin'.
+ -------production------
+Switched to branch 'master_v1'
+Your branch is up to date with 'origin/master_v1'.
+Already up to date.
+Switched to a new branch 'release/production_1.1.13'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for release/production_1.1.13:
+remote:   https://bitbucket.org/svc_bs_devloper/release-hmt-newest/pull-requests/new?source=release/production_1.1.13&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/release-hmt-newest.git
+ * [new branch]      release/production_1.1.13 -> release/production_1.1.13
+Branch 'release/production_1.1.13' set up to track remote branch 'release/production_1.1.13' from 'origin'.
+Already on 'release/production_1.1.13'
+Your branch is up to date with 'origin/release/production_1.1.13'.
+Total 0 (delta 0), reused 0 (delta 0)
+To bitbucket.org:svc_bs_devloper/release-hmt-newest.git
+ * [new tag]         1.1.10_n_1 -> 1.1.10_n_1
+---------------------
+p1 v1
+0
+/Users/tahi/zwv/svc_bs_developer/builds/hmt/p1
+ -------master------
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Already up to date.
+Switched to a new branch 'master_v1'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for master_v1:
+remote:   https://bitbucket.org/svc_bs_devloper/p1/pull-requests/new?source=master_v1&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/p1.git
+ * [new branch]      master_v1 -> master_v1
+Branch 'master_v1' set up to track remote branch 'master_v1' from 'origin'.
+ -------develop------
+Already on 'master_v1'
+Your branch is up to date with 'origin/master_v1'.
+Already up to date.
+Switched to a new branch 'release/develop_v1_NOBODY'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for release/develop_v1_NOBODY:
+remote:   https://bitbucket.org/svc_bs_devloper/p1/pull-requests/new?source=release/develop_v1_NOBODY&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/p1.git
+ * [new branch]      release/develop_v1_NOBODY -> release/develop_v1_NOBODY
+Branch 'release/develop_v1_NOBODY' set up to track remote branch 'release/develop_v1_NOBODY' from 'origin'.
+Switched to branch 'master_v1'
+Your branch is up to date with 'origin/master_v1'.
+Already up to date.
+Switched to a new branch 'develop/master_v1'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for develop/master_v1:
+remote:   https://bitbucket.org/svc_bs_devloper/p1/pull-requests/new?source=develop/master_v1&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/p1.git
+ * [new branch]      develop/master_v1 -> develop/master_v1
+Branch 'develop/master_v1' set up to track remote branch 'develop/master_v1' from 'origin'.
+ -------staging------
+Already on 'develop/master_v1'
+Your branch is up to date with 'origin/develop/master_v1'.
+Already up to date.
+Switched to a new branch 'release/staging_v1'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for release/staging_v1:
+remote:   https://bitbucket.org/svc_bs_devloper/p1/pull-requests/new?source=release/staging_v1&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/p1.git
+ * [new branch]      release/staging_v1 -> release/staging_v1
+Branch 'release/staging_v1' set up to track remote branch 'release/staging_v1' from 'origin'.
+Switched to branch 'develop/master_v1'
+Your branch is up to date with 'origin/develop/master_v1'.
+Already up to date.
+Switched to a new branch 'staging/master_v1'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for staging/master_v1:
+remote:   https://bitbucket.org/svc_bs_devloper/p1/pull-requests/new?source=staging/master_v1&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/p1.git
+ * [new branch]      staging/master_v1 -> staging/master_v1
+Branch 'staging/master_v1' set up to track remote branch 'staging/master_v1' from 'origin'.
+ -------production------
+Switched to branch 'master_v1'
+Your branch is up to date with 'origin/master_v1'.
+Already up to date.
+Switched to a new branch 'release/production_1.1.13'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for release/production_1.1.13:
+remote:   https://bitbucket.org/svc_bs_devloper/p1/pull-requests/new?source=release/production_1.1.13&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/p1.git
+ * [new branch]      release/production_1.1.13 -> release/production_1.1.13
+Branch 'release/production_1.1.13' set up to track remote branch 'release/production_1.1.13' from 'origin'.
+Already on 'release/production_1.1.13'
+Your branch is up to date with 'origin/release/production_1.1.13'.
+Total 0 (delta 0), reused 0 (delta 0)
+To bitbucket.org:svc_bs_devloper/p1.git
+ * [new tag]         1.1.10_p_1 -> 1.1.10_p_1
+/Users/tahi/zwv/svc_bs_developer/release/release-hmt-p1
+ -------master------
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Already up to date.
+Switched to a new branch 'master_v1'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for master_v1:
+remote:   https://bitbucket.org/svc_bs_devloper/release-hmt-p1/pull-requests/new?source=master_v1&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/release-hmt-p1.git
+ * [new branch]      master_v1 -> master_v1
+Branch 'master_v1' set up to track remote branch 'master_v1' from 'origin'.
+ -------develop------
+Already on 'master_v1'
+Your branch is up to date with 'origin/master_v1'.
+Already up to date.
+Switched to a new branch 'release/develop_v1_NOBODY'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for release/develop_v1_NOBODY:
+remote:   https://bitbucket.org/svc_bs_devloper/release-hmt-p1/pull-requests/new?source=release/develop_v1_NOBODY&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/release-hmt-p1.git
+ * [new branch]      release/develop_v1_NOBODY -> release/develop_v1_NOBODY
+Branch 'release/develop_v1_NOBODY' set up to track remote branch 'release/develop_v1_NOBODY' from 'origin'.
+Switched to branch 'master_v1'
+Your branch is up to date with 'origin/master_v1'.
+Already up to date.
+Switched to a new branch 'develop/master_v1'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for develop/master_v1:
+remote:   https://bitbucket.org/svc_bs_devloper/release-hmt-p1/pull-requests/new?source=develop/master_v1&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/release-hmt-p1.git
+ * [new branch]      develop/master_v1 -> develop/master_v1
+Branch 'develop/master_v1' set up to track remote branch 'develop/master_v1' from 'origin'.
+ -------staging------
+Already on 'develop/master_v1'
+Your branch is up to date with 'origin/develop/master_v1'.
+Already up to date.
+Switched to a new branch 'release/staging_v1'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for release/staging_v1:
+remote:   https://bitbucket.org/svc_bs_devloper/release-hmt-p1/pull-requests/new?source=release/staging_v1&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/release-hmt-p1.git
+ * [new branch]      release/staging_v1 -> release/staging_v1
+Branch 'release/staging_v1' set up to track remote branch 'release/staging_v1' from 'origin'.
+Switched to branch 'develop/master_v1'
+Your branch is up to date with 'origin/develop/master_v1'.
+Already up to date.
+Switched to a new branch 'staging/master_v1'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for staging/master_v1:
+remote:   https://bitbucket.org/svc_bs_devloper/release-hmt-p1/pull-requests/new?source=staging/master_v1&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/release-hmt-p1.git
+ * [new branch]      staging/master_v1 -> staging/master_v1
+Branch 'staging/master_v1' set up to track remote branch 'staging/master_v1' from 'origin'.
+ -------production------
+Switched to branch 'master_v1'
+Your branch is up to date with 'origin/master_v1'.
+Already up to date.
+Switched to a new branch 'release/production_1.1.13'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for release/production_1.1.13:
+remote:   https://bitbucket.org/svc_bs_devloper/release-hmt-p1/pull-requests/new?source=release/production_1.1.13&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/release-hmt-p1.git
+ * [new branch]      release/production_1.1.13 -> release/production_1.1.13
+Branch 'release/production_1.1.13' set up to track remote branch 'release/production_1.1.13' from 'origin'.
+Already on 'release/production_1.1.13'
+Your branch is up to date with 'origin/release/production_1.1.13'.
+Total 0 (delta 0), reused 0 (delta 0)
+To bitbucket.org:svc_bs_devloper/release-hmt-p1.git
+ * [new tag]         1.1.10_p_1 -> 1.1.10_p_1
+---------------------
+
+1
+---------------------
+boarding v2
+0
+/Users/tahi/zwv/svc_bs_developer/builds/hmt/boarding
+ -------master------
+Switched to branch 'master_2.0.0'
+Your branch is up to date with 'origin/master_2.0.0'.
+Already up to date.
+Switched to a new branch 'master_v2'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for master_v2:
+remote:   https://bitbucket.org/svc_bs_devloper/boarding/pull-requests/new?source=master_v2&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/boarding.git
+ * [new branch]      master_v2 -> master_v2
+Branch 'master_v2' set up to track remote branch 'master_v2' from 'origin'.
+ -------develop------
+Already on 'master_v2'
+Your branch is up to date with 'origin/master_v2'.
+Already up to date.
+Switched to a new branch 'release/develop_v2_NOBODY'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for release/develop_v2_NOBODY:
+remote:   https://bitbucket.org/svc_bs_devloper/boarding/pull-requests/new?source=release/develop_v2_NOBODY&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/boarding.git
+ * [new branch]      release/develop_v2_NOBODY -> release/develop_v2_NOBODY
+Branch 'release/develop_v2_NOBODY' set up to track remote branch 'release/develop_v2_NOBODY' from 'origin'.
+Switched to branch 'master_v2'
+Your branch is up to date with 'origin/master_v2'.
+Already up to date.
+Switched to a new branch 'develop/master_v2'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for develop/master_v2:
+remote:   https://bitbucket.org/svc_bs_devloper/boarding/pull-requests/new?source=develop/master_v2&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/boarding.git
+ * [new branch]      develop/master_v2 -> develop/master_v2
+Branch 'develop/master_v2' set up to track remote branch 'develop/master_v2' from 'origin'.
+ -------staging------
+Already on 'develop/master_v2'
+Your branch is up to date with 'origin/develop/master_v2'.
+Already up to date.
+Switched to a new branch 'release/staging_v2'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for release/staging_v2:
+remote:   https://bitbucket.org/svc_bs_devloper/boarding/pull-requests/new?source=release/staging_v2&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/boarding.git
+ * [new branch]      release/staging_v2 -> release/staging_v2
+Branch 'release/staging_v2' set up to track remote branch 'release/staging_v2' from 'origin'.
+Switched to branch 'develop/master_v2'
+Your branch is up to date with 'origin/develop/master_v2'.
+Already up to date.
+Switched to a new branch 'staging/master_v2'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for staging/master_v2:
+remote:   https://bitbucket.org/svc_bs_devloper/boarding/pull-requests/new?source=staging/master_v2&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/boarding.git
+ * [new branch]      staging/master_v2 -> staging/master_v2
+Branch 'staging/master_v2' set up to track remote branch 'staging/master_v2' from 'origin'.
+ -------production------
+Switched to branch 'master_v2'
+Your branch is up to date with 'origin/master_v2'.
+Already up to date.
+Switched to a new branch 'release/production_2.0.4'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for release/production_2.0.4:
+remote:   https://bitbucket.org/svc_bs_devloper/boarding/pull-requests/new?source=release/production_2.0.4&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/boarding.git
+ * [new branch]      release/production_2.0.4 -> release/production_2.0.4
+Branch 'release/production_2.0.4' set up to track remote branch 'release/production_2.0.4' from 'origin'.
+Already on 'release/production_2.0.4'
+Your branch is up to date with 'origin/release/production_2.0.4'.
+Total 0 (delta 0), reused 0 (delta 0)
+To bitbucket.org:svc_bs_devloper/boarding.git
+ * [new tag]         2.0.6_b_1 -> 2.0.6_b_1
+/Users/tahi/zwv/svc_bs_developer/release/release-hmt-boarding
+ -------master------
+Switched to branch 'master_2.0.0'
+Your branch is up to date with 'origin/master_2.0.0'.
+Already up to date.
+Switched to a new branch 'master_v2'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for master_v2:
+remote:   https://bitbucket.org/svc_bs_devloper/release-hmt-boarding/pull-requests/new?source=master_v2&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/release-hmt-boarding.git
+ * [new branch]      master_v2 -> master_v2
+Branch 'master_v2' set up to track remote branch 'master_v2' from 'origin'.
+ -------develop------
+Already on 'master_v2'
+Your branch is up to date with 'origin/master_v2'.
+Already up to date.
+Switched to a new branch 'release/develop_v2_NOBODY'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for release/develop_v2_NOBODY:
+remote:   https://bitbucket.org/svc_bs_devloper/release-hmt-boarding/pull-requests/new?source=release/develop_v2_NOBODY&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/release-hmt-boarding.git
+ * [new branch]      release/develop_v2_NOBODY -> release/develop_v2_NOBODY
+Branch 'release/develop_v2_NOBODY' set up to track remote branch 'release/develop_v2_NOBODY' from 'origin'.
+Switched to branch 'master_v2'
+Your branch is up to date with 'origin/master_v2'.
+Already up to date.
+Switched to a new branch 'develop/master_v2'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for develop/master_v2:
+remote:   https://bitbucket.org/svc_bs_devloper/release-hmt-boarding/pull-requests/new?source=develop/master_v2&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/release-hmt-boarding.git
+ * [new branch]      develop/master_v2 -> develop/master_v2
+Branch 'develop/master_v2' set up to track remote branch 'develop/master_v2' from 'origin'.
+ -------staging------
+Already on 'develop/master_v2'
+Your branch is up to date with 'origin/develop/master_v2'.
+Already up to date.
+Switched to a new branch 'release/staging_v2'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for release/staging_v2:
+remote:   https://bitbucket.org/svc_bs_devloper/release-hmt-boarding/pull-requests/new?source=release/staging_v2&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/release-hmt-boarding.git
+ * [new branch]      release/staging_v2 -> release/staging_v2
+Branch 'release/staging_v2' set up to track remote branch 'release/staging_v2' from 'origin'.
+Switched to branch 'develop/master_v2'
+Your branch is up to date with 'origin/develop/master_v2'.
+Already up to date.
+Switched to a new branch 'staging/master_v2'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for staging/master_v2:
+remote:   https://bitbucket.org/svc_bs_devloper/release-hmt-boarding/pull-requests/new?source=staging/master_v2&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/release-hmt-boarding.git
+ * [new branch]      staging/master_v2 -> staging/master_v2
+Branch 'staging/master_v2' set up to track remote branch 'staging/master_v2' from 'origin'.
+ -------production------
+Switched to branch 'master_v2'
+Your branch is up to date with 'origin/master_v2'.
+Already up to date.
+Switched to a new branch 'release/production_2.0.4'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for release/production_2.0.4:
+remote:   https://bitbucket.org/svc_bs_devloper/release-hmt-boarding/pull-requests/new?source=release/production_2.0.4&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/release-hmt-boarding.git
+ * [new branch]      release/production_2.0.4 -> release/production_2.0.4
+Branch 'release/production_2.0.4' set up to track remote branch 'release/production_2.0.4' from 'origin'.
+Already on 'release/production_2.0.4'
+Your branch is up to date with 'origin/release/production_2.0.4'.
+Total 0 (delta 0), reused 0 (delta 0)
+To bitbucket.org:svc_bs_devloper/release-hmt-boarding.git
+ * [new tag]         2.0.6_b_1 -> 2.0.6_b_1
+---------------------
+keel v2
+0
+/Users/tahi/zwv/svc_bs_developer/builds/hmt/keel
+ -------master------
+Switched to branch 'master_2.0.0'
+Your branch is up to date with 'origin/master_2.0.0'.
+Already up to date.
+Switched to a new branch 'master_v2'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for master_v2:
+remote:   https://bitbucket.org/svc_bs_devloper/keel/pull-requests/new?source=master_v2&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/keel.git
+ * [new branch]        master_v2 -> master_v2
+Branch 'master_v2' set up to track remote branch 'master_v2' from 'origin'.
+ -------develop------
+Already on 'master_v2'
+Your branch is up to date with 'origin/master_v2'.
+Already up to date.
+Switched to a new branch 'release/develop_v2_NOBODY'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for release/develop_v2_NOBODY:
+remote:   https://bitbucket.org/svc_bs_devloper/keel/pull-requests/new?source=release/develop_v2_NOBODY&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/keel.git
+ * [new branch]        release/develop_v2_NOBODY -> release/develop_v2_NOBODY
+Branch 'release/develop_v2_NOBODY' set up to track remote branch 'release/develop_v2_NOBODY' from 'origin'.
+Switched to branch 'master_v2'
+Your branch is up to date with 'origin/master_v2'.
+Already up to date.
+Switched to a new branch 'develop/master_v2'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for develop/master_v2:
+remote:   https://bitbucket.org/svc_bs_devloper/keel/pull-requests/new?source=develop/master_v2&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/keel.git
+ * [new branch]        develop/master_v2 -> develop/master_v2
+Branch 'develop/master_v2' set up to track remote branch 'develop/master_v2' from 'origin'.
+ -------staging------
+Already on 'develop/master_v2'
+Your branch is up to date with 'origin/develop/master_v2'.
+Already up to date.
+Switched to a new branch 'release/staging_v2'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for release/staging_v2:
+remote:   https://bitbucket.org/svc_bs_devloper/keel/pull-requests/new?source=release/staging_v2&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/keel.git
+ * [new branch]        release/staging_v2 -> release/staging_v2
+Branch 'release/staging_v2' set up to track remote branch 'release/staging_v2' from 'origin'.
+Switched to branch 'develop/master_v2'
+Your branch is up to date with 'origin/develop/master_v2'.
+Already up to date.
+Switched to a new branch 'staging/master_v2'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for staging/master_v2:
+remote:   https://bitbucket.org/svc_bs_devloper/keel/pull-requests/new?source=staging/master_v2&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/keel.git
+ * [new branch]        staging/master_v2 -> staging/master_v2
+Branch 'staging/master_v2' set up to track remote branch 'staging/master_v2' from 'origin'.
+ -------production------
+Switched to branch 'master_v2'
+Your branch is up to date with 'origin/master_v2'.
+Already up to date.
+Switched to a new branch 'release/production_2.0.4'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for release/production_2.0.4:
+remote:   https://bitbucket.org/svc_bs_devloper/keel/pull-requests/new?source=release/production_2.0.4&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/keel.git
+ * [new branch]        release/production_2.0.4 -> release/production_2.0.4
+Branch 'release/production_2.0.4' set up to track remote branch 'release/production_2.0.4' from 'origin'.
+Already on 'release/production_2.0.4'
+Your branch is up to date with 'origin/release/production_2.0.4'.
+Total 0 (delta 0), reused 0 (delta 0)
+To bitbucket.org:svc_bs_devloper/keel.git
+ * [new tag]           2.0.5_k_1 -> 2.0.5_k_1
+/Users/tahi/zwv/svc_bs_developer/release/release-hmt-keel
+ -------master------
+Switched to branch 'master_2.0.0'
+Your branch is up to date with 'origin/master_2.0.0'.
+Already up to date.
+Switched to a new branch 'master_v2'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for master_v2:
+remote:   https://bitbucket.org/svc_bs_devloper/release-hmt-keel/pull-requests/new?source=master_v2&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/release-hmt-keel.git
+ * [new branch]      master_v2 -> master_v2
+Branch 'master_v2' set up to track remote branch 'master_v2' from 'origin'.
+ -------develop------
+Already on 'master_v2'
+Your branch is up to date with 'origin/master_v2'.
+Already up to date.
+Switched to a new branch 'release/develop_v2_NOBODY'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for release/develop_v2_NOBODY:
+remote:   https://bitbucket.org/svc_bs_devloper/release-hmt-keel/pull-requests/new?source=release/develop_v2_NOBODY&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/release-hmt-keel.git
+ * [new branch]      release/develop_v2_NOBODY -> release/develop_v2_NOBODY
+Branch 'release/develop_v2_NOBODY' set up to track remote branch 'release/develop_v2_NOBODY' from 'origin'.
+Switched to branch 'master_v2'
+Your branch is up to date with 'origin/master_v2'.
+Already up to date.
+Switched to a new branch 'develop/master_v2'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for develop/master_v2:
+remote:   https://bitbucket.org/svc_bs_devloper/release-hmt-keel/pull-requests/new?source=develop/master_v2&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/release-hmt-keel.git
+ * [new branch]      develop/master_v2 -> develop/master_v2
+Branch 'develop/master_v2' set up to track remote branch 'develop/master_v2' from 'origin'.
+ -------staging------
+Already on 'develop/master_v2'
+Your branch is up to date with 'origin/develop/master_v2'.
+Already up to date.
+Switched to a new branch 'release/staging_v2'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for release/staging_v2:
+remote:   https://bitbucket.org/svc_bs_devloper/release-hmt-keel/pull-requests/new?source=release/staging_v2&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/release-hmt-keel.git
+ * [new branch]      release/staging_v2 -> release/staging_v2
+Branch 'release/staging_v2' set up to track remote branch 'release/staging_v2' from 'origin'.
+Switched to branch 'develop/master_v2'
+Your branch is up to date with 'origin/develop/master_v2'.
+Already up to date.
+Switched to a new branch 'staging/master_v2'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for staging/master_v2:
+remote:   https://bitbucket.org/svc_bs_devloper/release-hmt-keel/pull-requests/new?source=staging/master_v2&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/release-hmt-keel.git
+ * [new branch]      staging/master_v2 -> staging/master_v2
+Branch 'staging/master_v2' set up to track remote branch 'staging/master_v2' from 'origin'.
+ -------production------
+Switched to branch 'master_v2'
+Your branch is up to date with 'origin/master_v2'.
+Already up to date.
+Switched to a new branch 'release/production_2.0.4'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for release/production_2.0.4:
+remote:   https://bitbucket.org/svc_bs_devloper/release-hmt-keel/pull-requests/new?source=release/production_2.0.4&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/release-hmt-keel.git
+ * [new branch]      release/production_2.0.4 -> release/production_2.0.4
+Branch 'release/production_2.0.4' set up to track remote branch 'release/production_2.0.4' from 'origin'.
+Already on 'release/production_2.0.4'
+Your branch is up to date with 'origin/release/production_2.0.4'.
+Total 0 (delta 0), reused 0 (delta 0)
+To bitbucket.org:svc_bs_devloper/release-hmt-keel.git
+ * [new tag]         2.0.5_k_1 -> 2.0.5_k_1
+---------------------
+cabin v2
+0
+/Users/tahi/zwv/svc_bs_developer/builds/hmt/cabin
+ -------master------
+Switched to branch 'master_2.0.0'
+Your branch is up to date with 'origin/master_2.0.0'.
+Already up to date.
+Switched to a new branch 'master_v2'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for master_v2:
+remote:   https://bitbucket.org/svc_bs_devloper/cabin/pull-requests/new?source=master_v2&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/cabin.git
+ * [new branch]      master_v2 -> master_v2
+Branch 'master_v2' set up to track remote branch 'master_v2' from 'origin'.
+ -------develop------
+Already on 'master_v2'
+Your branch is up to date with 'origin/master_v2'.
+Already up to date.
+Switched to a new branch 'release/develop_v2_NOBODY'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for release/develop_v2_NOBODY:
+remote:   https://bitbucket.org/svc_bs_devloper/cabin/pull-requests/new?source=release/develop_v2_NOBODY&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/cabin.git
+ * [new branch]      release/develop_v2_NOBODY -> release/develop_v2_NOBODY
+Branch 'release/develop_v2_NOBODY' set up to track remote branch 'release/develop_v2_NOBODY' from 'origin'.
+Switched to branch 'master_v2'
+Your branch is up to date with 'origin/master_v2'.
+Already up to date.
+Switched to a new branch 'develop/master_v2'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for develop/master_v2:
+remote:   https://bitbucket.org/svc_bs_devloper/cabin/pull-requests/new?source=develop/master_v2&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/cabin.git
+ * [new branch]      develop/master_v2 -> develop/master_v2
+Branch 'develop/master_v2' set up to track remote branch 'develop/master_v2' from 'origin'.
+ -------staging------
+Already on 'develop/master_v2'
+Your branch is up to date with 'origin/develop/master_v2'.
+Already up to date.
+Switched to a new branch 'release/staging_v2'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for release/staging_v2:
+remote:   https://bitbucket.org/svc_bs_devloper/cabin/pull-requests/new?source=release/staging_v2&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/cabin.git
+ * [new branch]      release/staging_v2 -> release/staging_v2
+Branch 'release/staging_v2' set up to track remote branch 'release/staging_v2' from 'origin'.
+Switched to branch 'develop/master_v2'
+Your branch is up to date with 'origin/develop/master_v2'.
+Already up to date.
+Switched to a new branch 'staging/master_v2'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for staging/master_v2:
+remote:   https://bitbucket.org/svc_bs_devloper/cabin/pull-requests/new?source=staging/master_v2&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/cabin.git
+ * [new branch]      staging/master_v2 -> staging/master_v2
+Branch 'staging/master_v2' set up to track remote branch 'staging/master_v2' from 'origin'.
+ -------production------
+Switched to branch 'master_v2'
+Your branch is up to date with 'origin/master_v2'.
+Already up to date.
+Switched to a new branch 'release/production_2.0.4'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for release/production_2.0.4:
+remote:   https://bitbucket.org/svc_bs_devloper/cabin/pull-requests/new?source=release/production_2.0.4&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/cabin.git
+ * [new branch]      release/production_2.0.4 -> release/production_2.0.4
+Branch 'release/production_2.0.4' set up to track remote branch 'release/production_2.0.4' from 'origin'.
+Already on 'release/production_2.0.4'
+Your branch is up to date with 'origin/release/production_2.0.4'.
+Total 0 (delta 0), reused 0 (delta 0)
+To bitbucket.org:svc_bs_devloper/cabin.git
+ * [new tag]         2.0.1_c_1 -> 2.0.1_c_1
+/Users/tahi/zwv/svc_bs_developer/release/release-hmt-cabin
+ -------master------
+error: Your local changes to the following files would be overwritten by checkout:
+	Dockerfile
+Please commit your changes or stash them before you switch branches.
+Aborting
+error: src refspec master_v2 does not match any.
+error: failed to push some refs to 'git@bitbucket.org:svc_bs_devloper/release-hmt-cabin.git'
+ -------develop------
+error: pathspec 'master_v2' did not match any file(s) known to git.
+error: src refspec release/develop_v2_NOBODY does not match any.
+error: failed to push some refs to 'git@bitbucket.org:svc_bs_devloper/release-hmt-cabin.git'
+error: pathspec 'master_v2' did not match any file(s) known to git.
+error: src refspec develop/master_v2 does not match any.
+error: failed to push some refs to 'git@bitbucket.org:svc_bs_devloper/release-hmt-cabin.git'
+ -------staging------
+error: pathspec 'develop/master_v2' did not match any file(s) known to git.
+error: src refspec release/staging_v2 does not match any.
+error: failed to push some refs to 'git@bitbucket.org:svc_bs_devloper/release-hmt-cabin.git'
+error: pathspec 'develop/master_v2' did not match any file(s) known to git.
+error: src refspec staging/master_v2 does not match any.
+error: failed to push some refs to 'git@bitbucket.org:svc_bs_devloper/release-hmt-cabin.git'
+ -------production------
+error: pathspec 'master_v2' did not match any file(s) known to git.
+error: src refspec release/production_2.0.4 does not match any.
+error: failed to push some refs to 'git@bitbucket.org:svc_bs_devloper/release-hmt-cabin.git'
+error: pathspec 'release/production_2.0.4' did not match any file(s) known to git.
+---------------------
+asker v2
+0
+/Users/tahi/zwv/svc_bs_developer/builds/hmt/asker
+ -------master------
+Switched to branch 'master_2.0.0'
+Your branch is up to date with 'origin/master_2.0.0'.
+Already up to date.
+Switched to a new branch 'master_v2'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for master_v2:
+remote:   https://bitbucket.org/svc_bs_devloper/asker/pull-requests/new?source=master_v2&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/asker.git
+ * [new branch]      master_v2 -> master_v2
+Branch 'master_v2' set up to track remote branch 'master_v2' from 'origin'.
+ -------develop------
+Already on 'master_v2'
+Your branch is up to date with 'origin/master_v2'.
+Already up to date.
+Switched to a new branch 'release/develop_v2_NOBODY'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for release/develop_v2_NOBODY:
+remote:   https://bitbucket.org/svc_bs_devloper/asker/pull-requests/new?source=release/develop_v2_NOBODY&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/asker.git
+ * [new branch]      release/develop_v2_NOBODY -> release/develop_v2_NOBODY
+Branch 'release/develop_v2_NOBODY' set up to track remote branch 'release/develop_v2_NOBODY' from 'origin'.
+Switched to branch 'master_v2'
+Your branch is up to date with 'origin/master_v2'.
+Already up to date.
+Switched to a new branch 'develop/master_v2'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for develop/master_v2:
+remote:   https://bitbucket.org/svc_bs_devloper/asker/pull-requests/new?source=develop/master_v2&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/asker.git
+ * [new branch]      develop/master_v2 -> develop/master_v2
+Branch 'develop/master_v2' set up to track remote branch 'develop/master_v2' from 'origin'.
+ -------staging------
+Already on 'develop/master_v2'
+Your branch is up to date with 'origin/develop/master_v2'.
+Already up to date.
+Switched to a new branch 'release/staging_v2'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for release/staging_v2:
+remote:   https://bitbucket.org/svc_bs_devloper/asker/pull-requests/new?source=release/staging_v2&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/asker.git
+ * [new branch]      release/staging_v2 -> release/staging_v2
+Branch 'release/staging_v2' set up to track remote branch 'release/staging_v2' from 'origin'.
+Switched to branch 'develop/master_v2'
+Your branch is up to date with 'origin/develop/master_v2'.
+Already up to date.
+Switched to a new branch 'staging/master_v2'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for staging/master_v2:
+remote:   https://bitbucket.org/svc_bs_devloper/asker/pull-requests/new?source=staging/master_v2&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/asker.git
+ * [new branch]      staging/master_v2 -> staging/master_v2
+Branch 'staging/master_v2' set up to track remote branch 'staging/master_v2' from 'origin'.
+ -------production------
+Switched to branch 'master_v2'
+Your branch is up to date with 'origin/master_v2'.
+Already up to date.
+Switched to a new branch 'release/production_2.0.4'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for release/production_2.0.4:
+remote:   https://bitbucket.org/svc_bs_devloper/asker/pull-requests/new?source=release/production_2.0.4&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/asker.git
+ * [new branch]      release/production_2.0.4 -> release/production_2.0.4
+Branch 'release/production_2.0.4' set up to track remote branch 'release/production_2.0.4' from 'origin'.
+Already on 'release/production_2.0.4'
+Your branch is up to date with 'origin/release/production_2.0.4'.
+Total 0 (delta 0), reused 0 (delta 0)
+To bitbucket.org:svc_bs_devloper/asker.git
+ * [new tag]         2.0.6_a_1 -> 2.0.6_a_1
+/Users/tahi/zwv/svc_bs_developer/release/release-hmt-asker
+ -------master------
+Switched to branch 'master_2.0.0'
+Your branch is up to date with 'origin/master_2.0.0'.
+Already up to date.
+Switched to a new branch 'master_v2'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for master_v2:
+remote:   https://bitbucket.org/svc_bs_devloper/release-hmt-asker/pull-requests/new?source=master_v2&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/release-hmt-asker.git
+ * [new branch]      master_v2 -> master_v2
+Branch 'master_v2' set up to track remote branch 'master_v2' from 'origin'.
+ -------develop------
+Already on 'master_v2'
+Your branch is up to date with 'origin/master_v2'.
+Already up to date.
+Switched to a new branch 'release/develop_v2_NOBODY'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for release/develop_v2_NOBODY:
+remote:   https://bitbucket.org/svc_bs_devloper/release-hmt-asker/pull-requests/new?source=release/develop_v2_NOBODY&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/release-hmt-asker.git
+ * [new branch]      release/develop_v2_NOBODY -> release/develop_v2_NOBODY
+Branch 'release/develop_v2_NOBODY' set up to track remote branch 'release/develop_v2_NOBODY' from 'origin'.
+Switched to branch 'master_v2'
+Your branch is up to date with 'origin/master_v2'.
+Already up to date.
+Switched to a new branch 'develop/master_v2'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for develop/master_v2:
+remote:   https://bitbucket.org/svc_bs_devloper/release-hmt-asker/pull-requests/new?source=develop/master_v2&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/release-hmt-asker.git
+ * [new branch]      develop/master_v2 -> develop/master_v2
+Branch 'develop/master_v2' set up to track remote branch 'develop/master_v2' from 'origin'.
+ -------staging------
+Already on 'develop/master_v2'
+Your branch is up to date with 'origin/develop/master_v2'.
+Already up to date.
+Switched to a new branch 'release/staging_v2'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for release/staging_v2:
+remote:   https://bitbucket.org/svc_bs_devloper/release-hmt-asker/pull-requests/new?source=release/staging_v2&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/release-hmt-asker.git
+ * [new branch]      release/staging_v2 -> release/staging_v2
+Branch 'release/staging_v2' set up to track remote branch 'release/staging_v2' from 'origin'.
+Switched to branch 'develop/master_v2'
+Your branch is up to date with 'origin/develop/master_v2'.
+Already up to date.
+Switched to a new branch 'staging/master_v2'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for staging/master_v2:
+remote:   https://bitbucket.org/svc_bs_devloper/release-hmt-asker/pull-requests/new?source=staging/master_v2&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/release-hmt-asker.git
+ * [new branch]      staging/master_v2 -> staging/master_v2
+Branch 'staging/master_v2' set up to track remote branch 'staging/master_v2' from 'origin'.
+ -------production------
+Switched to branch 'master_v2'
+Your branch is up to date with 'origin/master_v2'.
+Already up to date.
+Switched to a new branch 'release/production_2.0.4'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for release/production_2.0.4:
+remote:   https://bitbucket.org/svc_bs_devloper/release-hmt-asker/pull-requests/new?source=release/production_2.0.4&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/release-hmt-asker.git
+ * [new branch]      release/production_2.0.4 -> release/production_2.0.4
+Branch 'release/production_2.0.4' set up to track remote branch 'release/production_2.0.4' from 'origin'.
+Already on 'release/production_2.0.4'
+Your branch is up to date with 'origin/release/production_2.0.4'.
+Total 0 (delta 0), reused 0 (delta 0)
+To bitbucket.org:svc_bs_devloper/release-hmt-asker.git
+ * [new tag]         2.0.6_a_1 -> 2.0.6_a_1
+---------------------
+newest v2
+0
+/Users/tahi/zwv/svc_bs_developer/builds/hmt/newest
+ -------master------
+Switched to branch 'master_2.0.0'
+Your branch is up to date with 'origin/master_2.0.0'.
+Already up to date.
+fatal: A branch named 'master_v2' already exists.
+To bitbucket.org:svc_bs_devloper/newest.git
+ ! [rejected]        master_v2 -> master_v2 (non-fast-forward)
+error: failed to push some refs to 'git@bitbucket.org:svc_bs_devloper/newest.git'
+hint: Updates were rejected because a pushed branch tip is behind its remote
+hint: counterpart. Check out this branch and integrate the remote changes
+hint: (e.g. 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+ -------develop------
+Switched to branch 'master_v2'
+Your branch is behind 'origin/master_v2' by 4 commits, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+Updating b0df5f0..b8d8077
+Fast-forward
+ jsconfig.json | 6 ------
+ 1 file changed, 6 deletions(-)
+ delete mode 100644 jsconfig.json
+fatal: A branch named 'release/develop_v2_NOBODY' already exists.
+Branch 'release/develop_v2_NOBODY' set up to track remote branch 'release/develop_v2_NOBODY' from 'origin'.
+Everything up-to-date
+Already on 'master_v2'
+Your branch is up to date with 'origin/master_v2'.
+Already up to date.
+fatal: A branch named 'develop/master_v2' already exists.
+Branch 'develop/master_v2' set up to track remote branch 'develop/master_v2' from 'origin'.
+Everything up-to-date
+ -------staging------
+Switched to branch 'develop/master_v2'
+Your branch is up to date with 'origin/develop/master_v2'.
+Already up to date.
+fatal: A branch named 'release/staging_v2' already exists.
+Branch 'release/staging_v2' set up to track remote branch 'release/staging_v2' from 'origin'.
+Everything up-to-date
+Already on 'develop/master_v2'
+Your branch is up to date with 'origin/develop/master_v2'.
+Already up to date.
+fatal: A branch named 'staging/master_v2' already exists.
+Branch 'staging/master_v2' set up to track remote branch 'staging/master_v2' from 'origin'.
+Everything up-to-date
+ -------production------
+Switched to branch 'master_v2'
+Your branch is up to date with 'origin/master_v2'.
+Already up to date.
+fatal: A branch named 'release/production_2.0.4' already exists.
+Branch 'release/production_2.0.4' set up to track remote branch 'release/production_2.0.4' from 'origin'.
+Everything up-to-date
+Switched to branch 'release/production_2.0.4'
+Your branch is up to date with 'origin/release/production_2.0.4'.
+fatal: tag '2.0.2_n_1' already exists
+/Users/tahi/zwv/svc_bs_developer/release/release-hmt-newest
+ -------master------
+Switched to branch 'master_2.0.0'
+Your branch is up to date with 'origin/master_2.0.0'.
+Already up to date.
+Switched to a new branch 'master_v2'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for master_v2:
+remote:   https://bitbucket.org/svc_bs_devloper/release-hmt-newest/pull-requests/new?source=master_v2&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/release-hmt-newest.git
+ * [new branch]      master_v2 -> master_v2
+Branch 'master_v2' set up to track remote branch 'master_v2' from 'origin'.
+ -------develop------
+Already on 'master_v2'
+Your branch is up to date with 'origin/master_v2'.
+Already up to date.
+Switched to a new branch 'release/develop_v2_NOBODY'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for release/develop_v2_NOBODY:
+remote:   https://bitbucket.org/svc_bs_devloper/release-hmt-newest/pull-requests/new?source=release/develop_v2_NOBODY&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/release-hmt-newest.git
+ * [new branch]      release/develop_v2_NOBODY -> release/develop_v2_NOBODY
+Branch 'release/develop_v2_NOBODY' set up to track remote branch 'release/develop_v2_NOBODY' from 'origin'.
+Switched to branch 'master_v2'
+Your branch is up to date with 'origin/master_v2'.
+Already up to date.
+Switched to a new branch 'develop/master_v2'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for develop/master_v2:
+remote:   https://bitbucket.org/svc_bs_devloper/release-hmt-newest/pull-requests/new?source=develop/master_v2&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/release-hmt-newest.git
+ * [new branch]      develop/master_v2 -> develop/master_v2
+Branch 'develop/master_v2' set up to track remote branch 'develop/master_v2' from 'origin'.
+ -------staging------
+Already on 'develop/master_v2'
+Your branch is up to date with 'origin/develop/master_v2'.
+Already up to date.
+Switched to a new branch 'release/staging_v2'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for release/staging_v2:
+remote:   https://bitbucket.org/svc_bs_devloper/release-hmt-newest/pull-requests/new?source=release/staging_v2&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/release-hmt-newest.git
+ * [new branch]      release/staging_v2 -> release/staging_v2
+Branch 'release/staging_v2' set up to track remote branch 'release/staging_v2' from 'origin'.
+Switched to branch 'develop/master_v2'
+Your branch is up to date with 'origin/develop/master_v2'.
+Already up to date.
+Switched to a new branch 'staging/master_v2'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for staging/master_v2:
+remote:   https://bitbucket.org/svc_bs_devloper/release-hmt-newest/pull-requests/new?source=staging/master_v2&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/release-hmt-newest.git
+ * [new branch]      staging/master_v2 -> staging/master_v2
+Branch 'staging/master_v2' set up to track remote branch 'staging/master_v2' from 'origin'.
+ -------production------
+Switched to branch 'master_v2'
+Your branch is up to date with 'origin/master_v2'.
+Already up to date.
+fatal: A branch named 'release/production_2.0.4' already exists.
+Branch 'release/production_2.0.4' set up to track remote branch 'release/production_2.0.4' from 'origin'.
+Everything up-to-date
+Switched to branch 'release/production_2.0.4'
+Your branch is up to date with 'origin/release/production_2.0.4'.
+fatal: tag '2.0.2_n_1' already exists
+---------------------
+cargo v2
+0
+/Users/tahi/zwv/svc_bs_developer/builds/hmt/cargo
+ -------master------
+Switched to branch 'master_2.0.0'
+Your branch is up to date with 'origin/master_2.0.0'.
+Already up to date.
+Switched to a new branch 'master_v2'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for master_v2:
+remote:   https://bitbucket.org/svc_bs_devloper/cargo/pull-requests/new?source=master_v2&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/cargo.git
+ * [new branch]      master_v2 -> master_v2
+Branch 'master_v2' set up to track remote branch 'master_v2' from 'origin'.
+ -------develop------
+Already on 'master_v2'
+Your branch is up to date with 'origin/master_v2'.
+Already up to date.
+Switched to a new branch 'release/develop_v2_NOBODY'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for release/develop_v2_NOBODY:
+remote:   https://bitbucket.org/svc_bs_devloper/cargo/pull-requests/new?source=release/develop_v2_NOBODY&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/cargo.git
+ * [new branch]      release/develop_v2_NOBODY -> release/develop_v2_NOBODY
+Branch 'release/develop_v2_NOBODY' set up to track remote branch 'release/develop_v2_NOBODY' from 'origin'.
+Switched to branch 'master_v2'
+Your branch is up to date with 'origin/master_v2'.
+Already up to date.
+Switched to a new branch 'develop/master_v2'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for develop/master_v2:
+remote:   https://bitbucket.org/svc_bs_devloper/cargo/pull-requests/new?source=develop/master_v2&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/cargo.git
+ * [new branch]      develop/master_v2 -> develop/master_v2
+Branch 'develop/master_v2' set up to track remote branch 'develop/master_v2' from 'origin'.
+ -------staging------
+Already on 'develop/master_v2'
+Your branch is up to date with 'origin/develop/master_v2'.
+Already up to date.
+Switched to a new branch 'release/staging_v2'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for release/staging_v2:
+remote:   https://bitbucket.org/svc_bs_devloper/cargo/pull-requests/new?source=release/staging_v2&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/cargo.git
+ * [new branch]      release/staging_v2 -> release/staging_v2
+Branch 'release/staging_v2' set up to track remote branch 'release/staging_v2' from 'origin'.
+Switched to branch 'develop/master_v2'
+Your branch is up to date with 'origin/develop/master_v2'.
+Already up to date.
+Switched to a new branch 'staging/master_v2'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for staging/master_v2:
+remote:   https://bitbucket.org/svc_bs_devloper/cargo/pull-requests/new?source=staging/master_v2&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/cargo.git
+ * [new branch]      staging/master_v2 -> staging/master_v2
+Branch 'staging/master_v2' set up to track remote branch 'staging/master_v2' from 'origin'.
+ -------production------
+Switched to branch 'master_v2'
+Your branch is up to date with 'origin/master_v2'.
+Already up to date.
+Switched to a new branch 'release/production_2.0.4'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for release/production_2.0.4:
+remote:   https://bitbucket.org/svc_bs_devloper/cargo/pull-requests/new?source=release/production_2.0.4&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/cargo.git
+ * [new branch]      release/production_2.0.4 -> release/production_2.0.4
+Branch 'release/production_2.0.4' set up to track remote branch 'release/production_2.0.4' from 'origin'.
+Already on 'release/production_2.0.4'
+Your branch is up to date with 'origin/release/production_2.0.4'.
+Total 0 (delta 0), reused 0 (delta 0)
+To bitbucket.org:svc_bs_devloper/cargo.git
+ * [new tag]         2.0.1_cg_1 -> 2.0.1_cg_1
+/Users/tahi/zwv/svc_bs_developer/release/release-hmt-cargo
+ -------master------
+Switched to branch 'master_2.0.0'
+Your branch is up to date with 'origin/master_2.0.0'.
+Already up to date.
+Switched to a new branch 'master_v2'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for master_v2:
+remote:   https://bitbucket.org/svc_bs_devloper/release-hmt-cargo/pull-requests/new?source=master_v2&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/release-hmt-cargo.git
+ * [new branch]      master_v2 -> master_v2
+Branch 'master_v2' set up to track remote branch 'master_v2' from 'origin'.
+ -------develop------
+Already on 'master_v2'
+Your branch is up to date with 'origin/master_v2'.
+Already up to date.
+Switched to a new branch 'release/develop_v2_NOBODY'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for release/develop_v2_NOBODY:
+remote:   https://bitbucket.org/svc_bs_devloper/release-hmt-cargo/pull-requests/new?source=release/develop_v2_NOBODY&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/release-hmt-cargo.git
+ * [new branch]      release/develop_v2_NOBODY -> release/develop_v2_NOBODY
+Branch 'release/develop_v2_NOBODY' set up to track remote branch 'release/develop_v2_NOBODY' from 'origin'.
+Switched to branch 'master_v2'
+Your branch is up to date with 'origin/master_v2'.
+Already up to date.
+Switched to a new branch 'develop/master_v2'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for develop/master_v2:
+remote:   https://bitbucket.org/svc_bs_devloper/release-hmt-cargo/pull-requests/new?source=develop/master_v2&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/release-hmt-cargo.git
+ * [new branch]      develop/master_v2 -> develop/master_v2
+Branch 'develop/master_v2' set up to track remote branch 'develop/master_v2' from 'origin'.
+ -------staging------
+Already on 'develop/master_v2'
+Your branch is up to date with 'origin/develop/master_v2'.
+Already up to date.
+Switched to a new branch 'release/staging_v2'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for release/staging_v2:
+remote:   https://bitbucket.org/svc_bs_devloper/release-hmt-cargo/pull-requests/new?source=release/staging_v2&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/release-hmt-cargo.git
+ * [new branch]      release/staging_v2 -> release/staging_v2
+Branch 'release/staging_v2' set up to track remote branch 'release/staging_v2' from 'origin'.
+Switched to branch 'develop/master_v2'
+Your branch is up to date with 'origin/develop/master_v2'.
+Already up to date.
+Switched to a new branch 'staging/master_v2'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for staging/master_v2:
+remote:   https://bitbucket.org/svc_bs_devloper/release-hmt-cargo/pull-requests/new?source=staging/master_v2&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/release-hmt-cargo.git
+ * [new branch]      staging/master_v2 -> staging/master_v2
+Branch 'staging/master_v2' set up to track remote branch 'staging/master_v2' from 'origin'.
+ -------production------
+Switched to branch 'master_v2'
+Your branch is up to date with 'origin/master_v2'.
+Already up to date.
+Switched to a new branch 'release/production_2.0.4'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for release/production_2.0.4:
+remote:   https://bitbucket.org/svc_bs_devloper/release-hmt-cargo/pull-requests/new?source=release/production_2.0.4&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/release-hmt-cargo.git
+ * [new branch]      release/production_2.0.4 -> release/production_2.0.4
+Branch 'release/production_2.0.4' set up to track remote branch 'release/production_2.0.4' from 'origin'.
+Already on 'release/production_2.0.4'
+Your branch is up to date with 'origin/release/production_2.0.4'.
+Total 0 (delta 0), reused 0 (delta 0)
+To bitbucket.org:svc_bs_devloper/release-hmt-cargo.git
+ * [new tag]         2.0.1_cg_1 -> 2.0.1_cg_1
+---------------------
+transit v2
+0
+/Users/tahi/zwv/svc_bs_developer/builds/hmt/transit
+ -------master------
+Switched to branch 'master_2.0.0'
+Your branch is up to date with 'origin/master_2.0.0'.
+remote: Counting objects: 17, done.
+remote: Compressing objects: 100% (16/16), done.
+remote: Total 17 (delta 7), reused 0 (delta 0)
+Unpacking objects: 100% (17/17), done.
+From bitbucket.org:svc_bs_devloper/transit
+   a18a6ae..7454919  master_2.0.0           -> origin/master_2.0.0
+ * [new branch]      V2-385_connect_command -> origin/V2-385_connect_command
+ * [new branch]      release/master_2.0.3_t -> origin/release/master_2.0.3_t
+Updating a18a6ae..7454919
+Fast-forward
+ config/svc/env_client.json              |  20 -----------------
+ data/{svc => svc}/dummy              |   0
+ modules/kvs/datastore/config.js            |  21 ++++++++++++++++++
+ modules/kvs/datastore/queries.message.js   |  34 ++++++++++++++++++++++++++++
+ modules/kvs/datastore/queries.session.js   | 150 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ modules/kvs/datastore/queries.sns.js       | 104 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ modules/kvs/datastore/store.js             | 111 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ modules/messenger/facebook/index.js        |  60 ++++++++++++++++++++++++++++++++++++++++++-------
+ modules/messenger/line/index.js            |  10 ++++-----
+ modules/messenger/line/message/audio.js    |   4 ++--
+ modules/messenger/line/message/image.js    |  14 +++++-------
+ modules/messenger/line/message/index.js    |  15 ++++++++++++-
+ modules/messenger/line/message/location.js |   8 ++++---
+ modules/messenger/line/message/message.js  |  10 +++++----
+ modules/messenger/line/message/video.js    |   7 +++---
+ package.json                               |   2 ++
+ routes/bwing/post_data.js                  |  45 +++++++++++++++++++++++++++++++++++++
+ {modules => routes}/bwing/post_message.js  |   6 ++++-
+ {modules => routes}/bwing/put_signin.js    |   0
+ routes/hmt.js                           | 210 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++----------------------
+ 20 files changed, 749 insertions(+), 82 deletions(-)
+ delete mode 100644 config/svc/env_client.json
+ rename data/{svc => svc}/dummy (100%)
+ create mode 100644 modules/kvs/datastore/config.js
+ create mode 100644 modules/kvs/datastore/queries.message.js
+ create mode 100644 modules/kvs/datastore/queries.session.js
+ create mode 100644 modules/kvs/datastore/queries.sns.js
+ create mode 100644 modules/kvs/datastore/store.js
+ create mode 100644 routes/bwing/post_data.js
+ rename {modules => routes}/bwing/post_message.js (94%)
+ rename {modules => routes}/bwing/put_signin.js (100%)
+Switched to a new branch 'master_v2'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for master_v2:
+remote:   https://bitbucket.org/svc_bs_devloper/transit/pull-requests/new?source=master_v2&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/transit.git
+ * [new branch]      master_v2 -> master_v2
+Branch 'master_v2' set up to track remote branch 'master_v2' from 'origin'.
+ -------develop------
+Already on 'master_v2'
+Your branch is up to date with 'origin/master_v2'.
+Already up to date.
+Switched to a new branch 'release/develop_v2_NOBODY'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for release/develop_v2_NOBODY:
+remote:   https://bitbucket.org/svc_bs_devloper/transit/pull-requests/new?source=release/develop_v2_NOBODY&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/transit.git
+ * [new branch]      release/develop_v2_NOBODY -> release/develop_v2_NOBODY
+Branch 'release/develop_v2_NOBODY' set up to track remote branch 'release/develop_v2_NOBODY' from 'origin'.
+Switched to branch 'master_v2'
+Your branch is up to date with 'origin/master_v2'.
+Already up to date.
+Switched to a new branch 'develop/master_v2'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for develop/master_v2:
+remote:   https://bitbucket.org/svc_bs_devloper/transit/pull-requests/new?source=develop/master_v2&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/transit.git
+ * [new branch]      develop/master_v2 -> develop/master_v2
+Branch 'develop/master_v2' set up to track remote branch 'develop/master_v2' from 'origin'.
+ -------staging------
+Already on 'develop/master_v2'
+Your branch is up to date with 'origin/develop/master_v2'.
+Already up to date.
+Switched to a new branch 'release/staging_v2'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for release/staging_v2:
+remote:   https://bitbucket.org/svc_bs_devloper/transit/pull-requests/new?source=release/staging_v2&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/transit.git
+ * [new branch]      release/staging_v2 -> release/staging_v2
+Branch 'release/staging_v2' set up to track remote branch 'release/staging_v2' from 'origin'.
+Switched to branch 'develop/master_v2'
+Your branch is up to date with 'origin/develop/master_v2'.
+Already up to date.
+Switched to a new branch 'staging/master_v2'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for staging/master_v2:
+remote:   https://bitbucket.org/svc_bs_devloper/transit/pull-requests/new?source=staging/master_v2&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/transit.git
+ * [new branch]      staging/master_v2 -> staging/master_v2
+Branch 'staging/master_v2' set up to track remote branch 'staging/master_v2' from 'origin'.
+ -------production------
+Switched to branch 'master_v2'
+Your branch is up to date with 'origin/master_v2'.
+Already up to date.
+Switched to a new branch 'release/production_2.0.4'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for release/production_2.0.4:
+remote:   https://bitbucket.org/svc_bs_devloper/transit/pull-requests/new?source=release/production_2.0.4&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/transit.git
+ * [new branch]      release/production_2.0.4 -> release/production_2.0.4
+Branch 'release/production_2.0.4' set up to track remote branch 'release/production_2.0.4' from 'origin'.
+Already on 'release/production_2.0.4'
+Your branch is up to date with 'origin/release/production_2.0.4'.
+Total 0 (delta 0), reused 0 (delta 0)
+To bitbucket.org:svc_bs_devloper/transit.git
+ * [new tag]         2.0.2_t_1 -> 2.0.2_t_1
+/Users/tahi/zwv/svc_bs_developer/release/release-hmt-transit
+ -------master------
+Switched to branch 'master_2.0.0'
+Your branch is up to date with 'origin/master_2.0.0'.
+remote: Counting objects: 60, done.
+remote: Compressing objects: 100% (58/58), done.
+remote: Total 60 (delta 32), reused 0 (delta 0)
+Unpacking objects: 100% (60/60), done.
+From bitbucket.org:svc_bs_devloper/release-hmt-transit
+   deb68e5..50eb31e  release/master_2.0.2_0 -> origin/release/master_2.0.2_0
+ * [new branch]      release/master_2.0.3_0 -> origin/release/master_2.0.3_0
+ * [new branch]      release/master_2.0.3_t -> origin/release/master_2.0.3_t
+Already up to date.
+Switched to a new branch 'master_v2'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for master_v2:
+remote:   https://bitbucket.org/svc_bs_devloper/release-hmt-transit/pull-requests/new?source=master_v2&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/release-hmt-transit.git
+ * [new branch]      master_v2 -> master_v2
+Branch 'master_v2' set up to track remote branch 'master_v2' from 'origin'.
+ -------develop------
+Already on 'master_v2'
+Your branch is up to date with 'origin/master_v2'.
+Already up to date.
+Switched to a new branch 'release/develop_v2_NOBODY'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for release/develop_v2_NOBODY:
+remote:   https://bitbucket.org/svc_bs_devloper/release-hmt-transit/pull-requests/new?source=release/develop_v2_NOBODY&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/release-hmt-transit.git
+ * [new branch]      release/develop_v2_NOBODY -> release/develop_v2_NOBODY
+Branch 'release/develop_v2_NOBODY' set up to track remote branch 'release/develop_v2_NOBODY' from 'origin'.
+Switched to branch 'master_v2'
+Your branch is up to date with 'origin/master_v2'.
+Already up to date.
+Switched to a new branch 'develop/master_v2'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for develop/master_v2:
+remote:   https://bitbucket.org/svc_bs_devloper/release-hmt-transit/pull-requests/new?source=develop/master_v2&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/release-hmt-transit.git
+ * [new branch]      develop/master_v2 -> develop/master_v2
+Branch 'develop/master_v2' set up to track remote branch 'develop/master_v2' from 'origin'.
+ -------staging------
+Already on 'develop/master_v2'
+Your branch is up to date with 'origin/develop/master_v2'.
+Already up to date.
+Switched to a new branch 'release/staging_v2'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for release/staging_v2:
+remote:   https://bitbucket.org/svc_bs_devloper/release-hmt-transit/pull-requests/new?source=release/staging_v2&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/release-hmt-transit.git
+ * [new branch]      release/staging_v2 -> release/staging_v2
+Branch 'release/staging_v2' set up to track remote branch 'release/staging_v2' from 'origin'.
+Switched to branch 'develop/master_v2'
+Your branch is up to date with 'origin/develop/master_v2'.
+Already up to date.
+Switched to a new branch 'staging/master_v2'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for staging/master_v2:
+remote:   https://bitbucket.org/svc_bs_devloper/release-hmt-transit/pull-requests/new?source=staging/master_v2&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/release-hmt-transit.git
+ * [new branch]      staging/master_v2 -> staging/master_v2
+Branch 'staging/master_v2' set up to track remote branch 'staging/master_v2' from 'origin'.
+ -------production------
+Switched to branch 'master_v2'
+Your branch is up to date with 'origin/master_v2'.
+Already up to date.
+Switched to a new branch 'release/production_2.0.4'
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for release/production_2.0.4:
+remote:   https://bitbucket.org/svc_bs_devloper/release-hmt-transit/pull-requests/new?source=release/production_2.0.4&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/release-hmt-transit.git
+ * [new branch]      release/production_2.0.4 -> release/production_2.0.4
+Branch 'release/production_2.0.4' set up to track remote branch 'release/production_2.0.4' from 'origin'.
+Already on 'release/production_2.0.4'
+Your branch is up to date with 'origin/release/production_2.0.4'.
+Total 0 (delta 0), reused 0 (delta 0)
+To bitbucket.org:svc_bs_devloper/release-hmt-transit.git
+ * [new tag]         2.0.2_t_1 -> 2.0.2_t_1
+

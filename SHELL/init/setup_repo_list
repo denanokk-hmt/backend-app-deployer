@@ -1,0 +1,27 @@
+settings hmt-v1-settings
+settings hmt-v2-settings
+builds v1-boarding
+builds v2-boarding hanger
+builds v1-keel
+builds v2-keel hanger
+builds v1-newest
+builds v2-newest hanger
+builds v1-asker
+builds v2-asker hanger
+builds v2-cargo hanger
+builds v2-cabin 
+builds v2-transit hanger
+builds v2-catwalk
+builds v2-hanger
+release release-hmt-v1-boarding
+release release-hmt-v2-boarding
+release release-hmt-v1-keel
+release release-hmt-v2-keel
+release release-hmt-v1-newest
+release release-hmt-v2-newest
+release release-hmt-v1-asker
+release release-hmt-v2-asker
+release release-hmt-v2-cargo
+release release-hmt-v2-cabin
+release release-hmt-v2-transit
+release release-hmt-v2-catwalk

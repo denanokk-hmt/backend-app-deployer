@@ -1,0 +1,1686 @@
+tahi-no-MacBook-Pro-3:SHELL tahi$ sh settings_v.sh
+/Users/tahi/zwv/svc_bs_developer/settings/hmt
+---------------------
+hmt-svc-prd v1 skip
+1
+---------------------
+hmt-svc-prd v1
+0
+M	boarding/config/root.json
+Switched to branch 'master_v1'
+M	boarding/config/root.json
+Already on 'master_v1'
+D	boarding/cloudbuild.yaml
+D	boarding/config/root.json
+D	boarding/data/dummy
+Already on 'master_v1'
+[master_v1 73c15f0] add series. and delete compo dir
+ 4 files changed, 7 insertions(+), 6 deletions(-)
+ delete mode 100644 boarding/config/root.json
+ rename boarding/cloudbuild.yaml => cloudbuild.yaml (100%)
+ create mode 100644 config/root.json
+ rename {boarding/data => data}/dummy (100%)
+Everything up-to-date
+Switched to branch 'release/production_1.1.13'
+Your branch is up to date with 'origin/release/production_1.1.13'.
+Updating 42be3f0..73c15f0
+Fast-forward
+ boarding/config/root.json                   | 6 ------
+ boarding/cloudbuild.yaml => cloudbuild.yaml | 0
+ config/root.json                            | 7 +++++++
+ {boarding/data => data}/dummy               | 0
+ 4 files changed, 7 insertions(+), 6 deletions(-)
+ delete mode 100644 boarding/config/root.json
+ rename boarding/cloudbuild.yaml => cloudbuild.yaml (100%)
+ create mode 100644 config/root.json
+ rename {boarding/data => data}/dummy (100%)
+Counting objects: 4, done.
+Delta compression using up to 16 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 500 bytes | 500.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for release/production_1.1.13:
+remote:   https://bitbucket.org/svc_bs_devloper/hmt-svc-prd/pull-requests/new?source=release/production_1.1.13&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/hmt-svc-prd.git
+   42be3f0..73c15f0  release/production_1.1.13 -> release/production_1.1.13
+---------------------
+hmt-svc-prd v1
+0
+M	keel/config/root.json
+Switched to branch 'master_v1'
+M	keel/config/root.json
+Already on 'master_v1'
+D	keel/cloudbuild.yaml
+D	keel/config/root.json
+D	keel/config/svc/config.json
+D	keel/config/svc/google_sheets_api/credentials.json
+D	keel/config/svc/google_sheets_api/token.json
+D	keel/data/dummy
+Already on 'master_v1'
+[master_v1 3979f2f] add series. and delete compo dir
+ 6 files changed, 1 insertion(+)
+ rename keel/cloudbuild.yaml => cloudbuild.yaml (100%)
+ rename {keel/config => config}/root.json (84%)
+ rename {keel/config => config}/svc/config.json (100%)
+ rename {keel/config => config}/svc/google_sheets_api/credentials.json (100%)
+ rename {keel/config => config}/svc/google_sheets_api/token.json (100%)
+ rename {keel/data => data}/dummy (100%)
+Everything up-to-date
+Switched to branch 'release/production_1.1.13'
+Your branch is up to date with 'origin/release/production_1.1.13'.
+Updating b2c6570..3979f2f
+Fast-forward
+ keel/cloudbuild.yaml => cloudbuild.yaml                             | 0
+ {keel/config => config}/root.json                                   | 1 +
+ {keel/config => config}/svc/config.json                        | 0
+ {keel/config => config}/svc/google_sheets_api/credentials.json | 0
+ {keel/config => config}/svc/google_sheets_api/token.json       | 0
+ {keel/data => data}/dummy                                           | 0
+ 6 files changed, 1 insertion(+)
+ rename keel/cloudbuild.yaml => cloudbuild.yaml (100%)
+ rename {keel/config => config}/root.json (84%)
+ rename {keel/config => config}/svc/config.json (100%)
+ rename {keel/config => config}/svc/google_sheets_api/credentials.json (100%)
+ rename {keel/config => config}/svc/google_sheets_api/token.json (100%)
+ rename {keel/data => data}/dummy (100%)
+Counting objects: 4, done.
+Delta compression using up to 16 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 531 bytes | 531.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for release/production_1.1.13:
+remote:   https://bitbucket.org/svc_bs_devloper/hmt-svc-prd/pull-requests/new?source=release/production_1.1.13&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/hmt-svc-prd.git
+   b2c6570..3979f2f  release/production_1.1.13 -> release/production_1.1.13
+---------------------
+hmt-svc-prd v1
+0
+M	p1/config/root.json
+Switched to branch 'master_v1'
+M	p1/config/root.json
+Already on 'master_v1'
+D	p1/cloudbuild.yaml
+D	p1/config/root.json
+D	p1/config/svc/google_sheets_api/credentials.json
+D	p1/config/svc/google_sheets_api/token.json
+Already on 'master_v1'
+[master_v1 1a4d34f] add series. and delete compo dir
+ 4 files changed, 1 insertion(+)
+ rename p1/cloudbuild.yaml => cloudbuild.yaml (100%)
+ rename {p1/config => config}/root.json (84%)
+ rename {p1/config => config}/svc/google_sheets_api/credentials.json (100%)
+ rename {p1/config => config}/svc/google_sheets_api/token.json (100%)
+Everything up-to-date
+Switched to branch 'release/production_1.1.13'
+Your branch is up to date with 'origin/release/production_1.1.13'.
+Updating 8572303..1a4d34f
+Fast-forward
+ p1/cloudbuild.yaml => cloudbuild.yaml                             | 0
+ {p1/config => config}/root.json                                   | 1 +
+ {p1/config => config}/svc/google_sheets_api/credentials.json | 0
+ {p1/config => config}/svc/google_sheets_api/token.json       | 0
+ 4 files changed, 1 insertion(+)
+ rename p1/cloudbuild.yaml => cloudbuild.yaml (100%)
+ rename {p1/config => config}/root.json (84%)
+ rename {p1/config => config}/svc/google_sheets_api/credentials.json (100%)
+ rename {p1/config => config}/svc/google_sheets_api/token.json (100%)
+Counting objects: 4, done.
+Delta compression using up to 16 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 501 bytes | 501.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for release/production_1.1.13:
+remote:   https://bitbucket.org/svc_bs_devloper/hmt-svc-prd/pull-requests/new?source=release/production_1.1.13&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/hmt-svc-prd.git
+   8572303..1a4d34f  release/production_1.1.13 -> release/production_1.1.13
+---------------------
+hmt-svc-prd v1
+0
+M	asker/config/root.json
+Switched to branch 'master_v1'
+M	asker/config/root.json
+Already on 'master_v1'
+D	asker/cloudbuild.yaml
+D	asker/config/root.json
+D	asker/config/svc/google_sheets_api/credentials.json
+D	asker/config/svc/google_sheets_api/token.json
+D	asker/data/dummy
+Already on 'master_v1'
+[master_v1 d5a9a7c] add series. and delete compo dir
+ 5 files changed, 1 insertion(+)
+ rename asker/cloudbuild.yaml => cloudbuild.yaml (100%)
+ rename {asker/config => config}/root.json (84%)
+ rename {asker/config => config}/svc/google_sheets_api/credentials.json (100%)
+ rename {asker/config => config}/svc/google_sheets_api/token.json (100%)
+ rename {asker/data => data}/dummy (100%)
+Everything up-to-date
+Switched to branch 'release/production_1.1.13'
+Your branch is up to date with 'origin/release/production_1.1.13'.
+Updating b1369c1..d5a9a7c
+Fast-forward
+ asker/cloudbuild.yaml => cloudbuild.yaml                             | 0
+ {asker/config => config}/root.json                                   | 1 +
+ {asker/config => config}/svc/google_sheets_api/credentials.json | 0
+ {asker/config => config}/svc/google_sheets_api/token.json       | 0
+ {asker/data => data}/dummy                                           | 0
+ 5 files changed, 1 insertion(+)
+ rename asker/cloudbuild.yaml => cloudbuild.yaml (100%)
+ rename {asker/config => config}/root.json (84%)
+ rename {asker/config => config}/svc/google_sheets_api/credentials.json (100%)
+ rename {asker/config => config}/svc/google_sheets_api/token.json (100%)
+ rename {asker/data => data}/dummy (100%)
+Counting objects: 4, done.
+Delta compression using up to 16 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 533 bytes | 533.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for release/production_1.1.13:
+remote:   https://bitbucket.org/svc_bs_devloper/hmt-svc-prd/pull-requests/new?source=release/production_1.1.13&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/hmt-svc-prd.git
+   b1369c1..d5a9a7c  release/production_1.1.13 -> release/production_1.1.13
+---------------------
+hmt-svc-prd v1
+0
+M	boarding/config/root.json
+Switched to branch 'master_v1'
+M	boarding/config/root.json
+Already on 'master_v1'
+D	boarding/cloudbuild.yaml
+D	boarding/config/root.json
+D	boarding/data/dummy
+Already on 'master_v1'
+[master_v1 53ea7ec] add series. and delete compo dir
+ 4 files changed, 7 insertions(+), 6 deletions(-)
+ delete mode 100644 boarding/config/root.json
+ rename boarding/cloudbuild.yaml => cloudbuild.yaml (100%)
+ create mode 100644 config/root.json
+ rename {boarding/data => data}/dummy (100%)
+Everything up-to-date
+Switched to branch 'release/production_1.1.13'
+Your branch is up to date with 'origin/release/production_1.1.13'.
+Updating 0d5c455..53ea7ec
+Fast-forward
+ boarding/config/root.json                   | 6 ------
+ boarding/cloudbuild.yaml => cloudbuild.yaml | 0
+ config/root.json                            | 7 +++++++
+ {boarding/data => data}/dummy               | 0
+ 4 files changed, 7 insertions(+), 6 deletions(-)
+ delete mode 100644 boarding/config/root.json
+ rename boarding/cloudbuild.yaml => cloudbuild.yaml (100%)
+ create mode 100644 config/root.json
+ rename {boarding/data => data}/dummy (100%)
+Counting objects: 4, done.
+Delta compression using up to 16 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 498 bytes | 498.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for release/production_1.1.13:
+remote:   https://bitbucket.org/svc_bs_devloper/hmt-svc-prd/pull-requests/new?source=release/production_1.1.13&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/hmt-svc-prd.git
+   0d5c455..53ea7ec  release/production_1.1.13 -> release/production_1.1.13
+---------------------
+hmt-svc-prd v1
+0
+M	keel/config/root.json
+Switched to branch 'master_v1'
+M	keel/config/root.json
+Already on 'master_v1'
+D	keel/cloudbuild.yaml
+D	keel/config/root.json
+D	keel/config/svc/config.json
+D	keel/config/svc/google_sheets_api/credentials.json
+D	keel/config/svc/google_sheets_api/token.json
+D	keel/data/dummy
+Already on 'master_v1'
+[master_v1 34480be] add series. and delete compo dir
+ 6 files changed, 1 insertion(+)
+ rename keel/cloudbuild.yaml => cloudbuild.yaml (100%)
+ rename {keel/config => config}/root.json (84%)
+ rename {keel/config => config}/svc/config.json (100%)
+ rename {keel/config => config}/svc/google_sheets_api/credentials.json (100%)
+ rename {keel/config => config}/svc/google_sheets_api/token.json (100%)
+ rename {keel/data => data}/dummy (100%)
+Everything up-to-date
+Switched to branch 'release/production_1.1.13'
+Your branch is up to date with 'origin/release/production_1.1.13'.
+Updating 98ab51c..34480be
+Fast-forward
+ keel/cloudbuild.yaml => cloudbuild.yaml                             | 0
+ {keel/config => config}/root.json                                   | 1 +
+ {keel/config => config}/svc/config.json                        | 0
+ {keel/config => config}/svc/google_sheets_api/credentials.json | 0
+ {keel/config => config}/svc/google_sheets_api/token.json       | 0
+ {keel/data => data}/dummy                                           | 0
+ 6 files changed, 1 insertion(+)
+ rename keel/cloudbuild.yaml => cloudbuild.yaml (100%)
+ rename {keel/config => config}/root.json (84%)
+ rename {keel/config => config}/svc/config.json (100%)
+ rename {keel/config => config}/svc/google_sheets_api/credentials.json (100%)
+ rename {keel/config => config}/svc/google_sheets_api/token.json (100%)
+ rename {keel/data => data}/dummy (100%)
+Counting objects: 4, done.
+Delta compression using up to 16 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 529 bytes | 529.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for release/production_1.1.13:
+remote:   https://bitbucket.org/svc_bs_devloper/hmt-svc-prd/pull-requests/new?source=release/production_1.1.13&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/hmt-svc-prd.git
+   98ab51c..34480be  release/production_1.1.13 -> release/production_1.1.13
+---------------------
+hmt-svc-prd v1
+0
+M	p1/config/root.json
+Switched to branch 'master_v1'
+M	p1/config/root.json
+Already on 'master_v1'
+D	p1/cloudbuild.yaml
+D	p1/config/root.json
+D	p1/config/svc/google_sheets_api/credentials.json
+D	p1/config/svc/google_sheets_api/token.json
+Already on 'master_v1'
+[master_v1 00a9886] add series. and delete compo dir
+ 4 files changed, 1 insertion(+)
+ rename p1/cloudbuild.yaml => cloudbuild.yaml (100%)
+ rename {p1/config => config}/root.json (84%)
+ rename {p1/config => config}/svc/google_sheets_api/credentials.json (100%)
+ rename {p1/config => config}/svc/google_sheets_api/token.json (100%)
+Everything up-to-date
+Switched to branch 'release/production_1.1.13'
+Your branch is up to date with 'origin/release/production_1.1.13'.
+Updating 3aecc2e..00a9886
+Fast-forward
+ p1/cloudbuild.yaml => cloudbuild.yaml                             | 0
+ {p1/config => config}/root.json                                   | 1 +
+ {p1/config => config}/svc/google_sheets_api/credentials.json | 0
+ {p1/config => config}/svc/google_sheets_api/token.json       | 0
+ 4 files changed, 1 insertion(+)
+ rename p1/cloudbuild.yaml => cloudbuild.yaml (100%)
+ rename {p1/config => config}/root.json (84%)
+ rename {p1/config => config}/svc/google_sheets_api/credentials.json (100%)
+ rename {p1/config => config}/svc/google_sheets_api/token.json (100%)
+Counting objects: 4, done.
+Delta compression using up to 16 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 502 bytes | 502.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for release/production_1.1.13:
+remote:   https://bitbucket.org/svc_bs_devloper/hmt-svc-prd/pull-requests/new?source=release/production_1.1.13&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/hmt-svc-prd.git
+   3aecc2e..00a9886  release/production_1.1.13 -> release/production_1.1.13
+---------------------
+hmt-svc-prd v2 skip
+1
+---------------------
+hmt-svc-prd v2 skip
+1
+---------------------
+hmt-svc-prd v2 skip
+1
+---------------------
+hmt-svc-prd v2
+0
+M	cargo/config/root.json
+Switched to branch 'master_v2'
+M	cargo/config/root.json
+Already on 'master_v2'
+D	cargo/cloudbuild.yaml
+D	cargo/config/root.json
+Already on 'master_v2'
+[master_v2 bf4d10d] add series. and delete compo dir
+ 2 files changed, 1 insertion(+)
+ rename cargo/cloudbuild.yaml => cloudbuild.yaml (100%)
+ rename {cargo/config => config}/root.json (85%)
+Everything up-to-date
+Switched to branch 'release/production_2.0.4'
+Your branch is up to date with 'origin/release/production_2.0.4'.
+Updating eb92b15..bf4d10d
+Fast-forward
+ cargo/cloudbuild.yaml => cloudbuild.yaml | 0
+ {cargo/config => config}/root.json       | 1 +
+ 2 files changed, 1 insertion(+)
+ rename cargo/cloudbuild.yaml => cloudbuild.yaml (100%)
+ rename {cargo/config => config}/root.json (85%)
+Counting objects: 4, done.
+Delta compression using up to 16 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 472 bytes | 472.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for release/production_2.0.4:
+remote:   https://bitbucket.org/svc_bs_devloper/hmt-svc-prd/pull-requests/new?source=release/production_2.0.4&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/hmt-svc-prd.git
+   eb92b15..bf4d10d  release/production_2.0.4 -> release/production_2.0.4
+---------------------
+hmt-svc-prd v2 skip
+1
+---------------------
+hmt-svc-prd v2 skip
+1
+---------------------
+hmt-svc-prd v1
+0
+M	asker/config/root.json
+Switched to branch 'master_v1'
+M	asker/config/root.json
+Already on 'master_v1'
+D	asker/cloudbuild.yaml
+D	asker/config/root.json
+D	asker/config/svc/google_sheets_api/credentials.json
+D	asker/config/svc/google_sheets_api/token.json
+D	asker/data/dummy
+Already on 'master_v1'
+[master_v1 fd491c9] add series. and delete compo dir
+ 5 files changed, 2 insertions(+), 1 deletion(-)
+ rename asker/cloudbuild.yaml => cloudbuild.yaml (100%)
+ rename {asker/config => config}/root.json (65%)
+ rename {asker/config => config}/svc/google_sheets_api/credentials.json (100%)
+ rename {asker/config => config}/svc/google_sheets_api/token.json (100%)
+ rename {asker/data => data}/dummy (100%)
+Everything up-to-date
+Switched to branch 'release/production_1.1.13'
+Your branch is up to date with 'origin/release/production_1.1.13'.
+Updating 334e24c..fd491c9
+Fast-forward
+ asker/cloudbuild.yaml => cloudbuild.yaml                             | 0
+ {asker/config => config}/root.json                                   | 3 ++-
+ {asker/config => config}/svc/google_sheets_api/credentials.json | 0
+ {asker/config => config}/svc/google_sheets_api/token.json       | 0
+ {asker/data => data}/dummy                                           | 0
+ 5 files changed, 2 insertions(+), 1 deletion(-)
+ rename asker/cloudbuild.yaml => cloudbuild.yaml (100%)
+ rename {asker/config => config}/root.json (65%)
+ rename {asker/config => config}/svc/google_sheets_api/credentials.json (100%)
+ rename {asker/config => config}/svc/google_sheets_api/token.json (100%)
+ rename {asker/data => data}/dummy (100%)
+Counting objects: 4, done.
+Delta compression using up to 16 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 533 bytes | 533.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for release/production_1.1.13:
+remote:   https://bitbucket.org/svc_bs_devloper/hmt-svc-prd/pull-requests/new?source=release/production_1.1.13&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/hmt-svc-prd.git
+   334e24c..fd491c9  release/production_1.1.13 -> release/production_1.1.13
+---------------------
+hmt-svc-prd v1
+0
+M	boarding/config/root.json
+Switched to branch 'master_v1'
+M	boarding/config/root.json
+Already on 'master_v1'
+D	boarding/cloudbuild.yaml
+D	boarding/config/root.json
+D	boarding/data/dummy
+Already on 'master_v1'
+[master_v1 391525c] add series. and delete compo dir
+ 4 files changed, 7 insertions(+), 6 deletions(-)
+ delete mode 100644 boarding/config/root.json
+ rename boarding/cloudbuild.yaml => cloudbuild.yaml (100%)
+ create mode 100644 config/root.json
+ rename {boarding/data => data}/dummy (100%)
+Everything up-to-date
+Switched to branch 'release/production_1.1.13'
+Your branch is up to date with 'origin/release/production_1.1.13'.
+Updating 41c356b..391525c
+Fast-forward
+ boarding/config/root.json                   | 6 ------
+ boarding/cloudbuild.yaml => cloudbuild.yaml | 0
+ config/root.json                            | 7 +++++++
+ {boarding/data => data}/dummy               | 0
+ 4 files changed, 7 insertions(+), 6 deletions(-)
+ delete mode 100644 boarding/config/root.json
+ rename boarding/cloudbuild.yaml => cloudbuild.yaml (100%)
+ create mode 100644 config/root.json
+ rename {boarding/data => data}/dummy (100%)
+Counting objects: 4, done.
+Delta compression using up to 16 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 500 bytes | 500.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for release/production_1.1.13:
+remote:   https://bitbucket.org/svc_bs_devloper/hmt-svc-prd/pull-requests/new?source=release/production_1.1.13&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/hmt-svc-prd.git
+   41c356b..391525c  release/production_1.1.13 -> release/production_1.1.13
+---------------------
+hmt-svc-prd v1
+0
+M	keel/config/root.json
+Switched to branch 'master_v1'
+M	keel/config/root.json
+Already on 'master_v1'
+D	keel/cloudbuild.yaml
+D	keel/config/root.json
+D	keel/config/svc/config.json
+D	keel/config/svc/google_sheets_api/credentials.json
+D	keel/config/svc/google_sheets_api/token.json
+D	keel/data/dummy
+Already on 'master_v1'
+[master_v1 58365d7] add series. and delete compo dir
+ 6 files changed, 2 insertions(+), 1 deletion(-)
+ rename keel/cloudbuild.yaml => cloudbuild.yaml (100%)
+ rename {keel/config => config}/root.json (64%)
+ rename {keel/config => config}/svc/config.json (100%)
+ rename {keel/config => config}/svc/google_sheets_api/credentials.json (100%)
+ rename {keel/config => config}/svc/google_sheets_api/token.json (100%)
+ rename {keel/data => data}/dummy (100%)
+Everything up-to-date
+Switched to branch 'release/production_1.1.13'
+Your branch is up to date with 'origin/release/production_1.1.13'.
+Updating fe7d869..58365d7
+Fast-forward
+ keel/cloudbuild.yaml => cloudbuild.yaml                             | 0
+ {keel/config => config}/root.json                                   | 3 ++-
+ {keel/config => config}/svc/config.json                        | 0
+ {keel/config => config}/svc/google_sheets_api/credentials.json | 0
+ {keel/config => config}/svc/google_sheets_api/token.json       | 0
+ {keel/data => data}/dummy                                           | 0
+ 6 files changed, 2 insertions(+), 1 deletion(-)
+ rename keel/cloudbuild.yaml => cloudbuild.yaml (100%)
+ rename {keel/config => config}/root.json (64%)
+ rename {keel/config => config}/svc/config.json (100%)
+ rename {keel/config => config}/svc/google_sheets_api/credentials.json (100%)
+ rename {keel/config => config}/svc/google_sheets_api/token.json (100%)
+ rename {keel/data => data}/dummy (100%)
+Counting objects: 4, done.
+Delta compression using up to 16 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 530 bytes | 530.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for release/production_1.1.13:
+remote:   https://bitbucket.org/svc_bs_devloper/hmt-svc-prd/pull-requests/new?source=release/production_1.1.13&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/hmt-svc-prd.git
+   fe7d869..58365d7  release/production_1.1.13 -> release/production_1.1.13
+---------------------
+hmt-svc-prd v1
+0
+M	p1/config/root.json
+Switched to branch 'master_v1'
+M	p1/config/root.json
+Already on 'master_v1'
+D	p1/cloudbuild.yaml
+D	p1/config/root.json
+D	p1/config/svc/google_sheets_api/credentials.json
+D	p1/config/svc/google_sheets_api/token.json
+Already on 'master_v1'
+[master_v1 ce0135b] add series. and delete compo dir
+ 4 files changed, 2 insertions(+), 1 deletion(-)
+ rename p1/cloudbuild.yaml => cloudbuild.yaml (100%)
+ rename {p1/config => config}/root.json (64%)
+ rename {p1/config => config}/svc/google_sheets_api/credentials.json (100%)
+ rename {p1/config => config}/svc/google_sheets_api/token.json (100%)
+Everything up-to-date
+Switched to branch 'release/production_1.1.13'
+Your branch is up to date with 'origin/release/production_1.1.13'.
+Updating 086ce1f..ce0135b
+Fast-forward
+ p1/cloudbuild.yaml => cloudbuild.yaml                             | 0
+ {p1/config => config}/root.json                                   | 3 ++-
+ {p1/config => config}/svc/google_sheets_api/credentials.json | 0
+ {p1/config => config}/svc/google_sheets_api/token.json       | 0
+ 4 files changed, 2 insertions(+), 1 deletion(-)
+ rename p1/cloudbuild.yaml => cloudbuild.yaml (100%)
+ rename {p1/config => config}/root.json (64%)
+ rename {p1/config => config}/svc/google_sheets_api/credentials.json (100%)
+ rename {p1/config => config}/svc/google_sheets_api/token.json (100%)
+Counting objects: 4, done.
+Delta compression using up to 16 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 501 bytes | 501.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for release/production_1.1.13:
+remote:   https://bitbucket.org/svc_bs_devloper/hmt-svc-prd/pull-requests/new?source=release/production_1.1.13&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/hmt-svc-prd.git
+   086ce1f..ce0135b  release/production_1.1.13 -> release/production_1.1.13
+---------------------
+hmt-svc-prd v1
+0
+M	asker/config/root.json
+Switched to branch 'master_v1'
+M	asker/config/root.json
+Already on 'master_v1'
+D	asker/cloudbuild.yaml
+D	asker/config/root.json
+D	asker/config/svc/google_sheets_api/credentials.json
+D	asker/config/svc/google_sheets_api/token.json
+D	asker/data/dummy
+Already on 'master_v1'
+[master_v1 fc74834] add series. and delete compo dir
+ 5 files changed, 2 insertions(+), 1 deletion(-)
+ rename asker/cloudbuild.yaml => cloudbuild.yaml (100%)
+ rename {asker/config => config}/root.json (65%)
+ rename {asker/config => config}/svc/google_sheets_api/credentials.json (100%)
+ rename {asker/config => config}/svc/google_sheets_api/token.json (100%)
+ rename {asker/data => data}/dummy (100%)
+Everything up-to-date
+Switched to branch 'release/production_1.1.13'
+Your branch is up to date with 'origin/release/production_1.1.13'.
+Updating 29b9d68..fc74834
+Fast-forward
+ asker/cloudbuild.yaml => cloudbuild.yaml                             | 0
+ {asker/config => config}/root.json                                   | 3 ++-
+ {asker/config => config}/svc/google_sheets_api/credentials.json | 0
+ {asker/config => config}/svc/google_sheets_api/token.json       | 0
+ {asker/data => data}/dummy                                           | 0
+ 5 files changed, 2 insertions(+), 1 deletion(-)
+ rename asker/cloudbuild.yaml => cloudbuild.yaml (100%)
+ rename {asker/config => config}/root.json (65%)
+ rename {asker/config => config}/svc/google_sheets_api/credentials.json (100%)
+ rename {asker/config => config}/svc/google_sheets_api/token.json (100%)
+ rename {asker/data => data}/dummy (100%)
+Counting objects: 4, done.
+Delta compression using up to 16 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 533 bytes | 533.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for release/production_1.1.13:
+remote:   https://bitbucket.org/svc_bs_devloper/hmt-svc-prd/pull-requests/new?source=release/production_1.1.13&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/hmt-svc-prd.git
+   29b9d68..fc74834  release/production_1.1.13 -> release/production_1.1.13
+---------------------
+hmt-svc-prd v1
+0
+M	boarding/config/root.json
+Switched to branch 'master_v1'
+M	boarding/config/root.json
+Already on 'master_v1'
+D	boarding/cloudbuild.yaml
+D	boarding/config/root.json
+D	boarding/data/dummy
+Already on 'master_v1'
+[master_v1 70deac4] add series. and delete compo dir
+ 4 files changed, 7 insertions(+), 6 deletions(-)
+ delete mode 100644 boarding/config/root.json
+ rename boarding/cloudbuild.yaml => cloudbuild.yaml (100%)
+ create mode 100644 config/root.json
+ rename {boarding/data => data}/dummy (100%)
+Everything up-to-date
+Switched to branch 'release/production_1.1.13'
+Your branch is up to date with 'origin/release/production_1.1.13'.
+Updating 8eefc38..70deac4
+Fast-forward
+ boarding/config/root.json                   | 6 ------
+ boarding/cloudbuild.yaml => cloudbuild.yaml | 0
+ config/root.json                            | 7 +++++++
+ {boarding/data => data}/dummy               | 0
+ 4 files changed, 7 insertions(+), 6 deletions(-)
+ delete mode 100644 boarding/config/root.json
+ rename boarding/cloudbuild.yaml => cloudbuild.yaml (100%)
+ create mode 100644 config/root.json
+ rename {boarding/data => data}/dummy (100%)
+Counting objects: 4, done.
+Delta compression using up to 16 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 499 bytes | 499.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for release/production_1.1.13:
+remote:   https://bitbucket.org/svc_bs_devloper/hmt-svc-prd/pull-requests/new?source=release/production_1.1.13&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/hmt-svc-prd.git
+   8eefc38..70deac4  release/production_1.1.13 -> release/production_1.1.13
+---------------------
+hmt-svc-prd v1
+0
+M	keel/config/root.json
+Switched to branch 'master_v1'
+M	keel/config/root.json
+Already on 'master_v1'
+D	keel/cloudbuild.yaml
+D	keel/config/root.json
+D	keel/config/svc/config.json
+D	keel/config/svc/google_sheets_api/credentials.json
+D	keel/config/svc/google_sheets_api/token.json
+D	keel/data/dummy
+Already on 'master_v1'
+[master_v1 7039289] add series. and delete compo dir
+ 6 files changed, 2 insertions(+), 1 deletion(-)
+ rename keel/cloudbuild.yaml => cloudbuild.yaml (100%)
+ rename {keel/config => config}/root.json (64%)
+ rename {keel/config => config}/svc/config.json (100%)
+ rename {keel/config => config}/svc/google_sheets_api/credentials.json (100%)
+ rename {keel/config => config}/svc/google_sheets_api/token.json (100%)
+ rename {keel/data => data}/dummy (100%)
+Everything up-to-date
+Switched to branch 'release/production_1.1.13'
+Your branch is up to date with 'origin/release/production_1.1.13'.
+Updating 24c728c..7039289
+Fast-forward
+ keel/cloudbuild.yaml => cloudbuild.yaml                             | 0
+ {keel/config => config}/root.json                                   | 3 ++-
+ {keel/config => config}/svc/config.json                        | 0
+ {keel/config => config}/svc/google_sheets_api/credentials.json | 0
+ {keel/config => config}/svc/google_sheets_api/token.json       | 0
+ {keel/data => data}/dummy                                           | 0
+ 6 files changed, 2 insertions(+), 1 deletion(-)
+ rename keel/cloudbuild.yaml => cloudbuild.yaml (100%)
+ rename {keel/config => config}/root.json (64%)
+ rename {keel/config => config}/svc/config.json (100%)
+ rename {keel/config => config}/svc/google_sheets_api/credentials.json (100%)
+ rename {keel/config => config}/svc/google_sheets_api/token.json (100%)
+ rename {keel/data => data}/dummy (100%)
+Counting objects: 4, done.
+Delta compression using up to 16 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 531 bytes | 531.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for release/production_1.1.13:
+remote:   https://bitbucket.org/svc_bs_devloper/hmt-svc-prd/pull-requests/new?source=release/production_1.1.13&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/hmt-svc-prd.git
+   24c728c..7039289  release/production_1.1.13 -> release/production_1.1.13
+---------------------
+hmt-svc-prd v1
+0
+M	p1/config/root.json
+Switched to branch 'master_v1'
+M	p1/config/root.json
+Already on 'master_v1'
+D	p1/cloudbuild.yaml
+D	p1/config/root.json
+D	p1/config/svc/google_sheets_api/credentials.json
+D	p1/config/svc/google_sheets_api/token.json
+Already on 'master_v1'
+[master_v1 d8e2ee4] add series. and delete compo dir
+ 4 files changed, 2 insertions(+), 1 deletion(-)
+ rename p1/cloudbuild.yaml => cloudbuild.yaml (100%)
+ rename {p1/config => config}/root.json (64%)
+ rename {p1/config => config}/svc/google_sheets_api/credentials.json (100%)
+ rename {p1/config => config}/svc/google_sheets_api/token.json (100%)
+Everything up-to-date
+Switched to branch 'release/production_1.1.13'
+Your branch is up to date with 'origin/release/production_1.1.13'.
+Updating 6a6c8b2..d8e2ee4
+Fast-forward
+ p1/cloudbuild.yaml => cloudbuild.yaml                             | 0
+ {p1/config => config}/root.json                                   | 3 ++-
+ {p1/config => config}/svc/google_sheets_api/credentials.json | 0
+ {p1/config => config}/svc/google_sheets_api/token.json       | 0
+ 4 files changed, 2 insertions(+), 1 deletion(-)
+ rename p1/cloudbuild.yaml => cloudbuild.yaml (100%)
+ rename {p1/config => config}/root.json (64%)
+ rename {p1/config => config}/svc/google_sheets_api/credentials.json (100%)
+ rename {p1/config => config}/svc/google_sheets_api/token.json (100%)
+Counting objects: 4, done.
+Delta compression using up to 16 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 501 bytes | 501.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for release/production_1.1.13:
+remote:   https://bitbucket.org/svc_bs_devloper/hmt-svc-prd/pull-requests/new?source=release/production_1.1.13&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/hmt-svc-prd.git
+   6a6c8b2..d8e2ee4  release/production_1.1.13 -> release/production_1.1.13
+---------------------
+hmt-svc-prd v2 skip
+1
+---------------------
+hmt-svc-prd v2 skip
+1
+---------------------
+hmt-svc-prd v2 skip
+1
+---------------------
+hmt-svc-prd v2 skip
+1
+---------------------
+hmt-svc-dev v2 skip
+1
+---------------------
+hmt-svc-dev v2 skip
+1
+---------------------
+hmt-svc-dev v2 skip
+1
+---------------------
+hmt-svc-dev v2 skip
+1
+---------------------
+hmt-svc-dev v2 skip
+1
+---------------------
+hmt-svc-dev v2 skip
+1
+---------------------
+hmt-svc-stg v1
+1
+---------------------
+hmt-svc-dev v2 skip
+1
+---------------------
+hmt-svc-stg v2 skip
+1
+---------------------
+hmt-svc-stg v2 skip
+1
+---------------------
+hmt-svc-stg v2 skip
+1
+---------------------
+hmt-svc-stg v2 skip
+1
+---------------------
+hmt-svc-stg v2 skip
+1
+---------------------
+hmt-svc-stg v2 skip
+1
+---------------------
+hmt-svc-stg v2 skip
+1
+---------------------
+hmt-svc-prd v1
+0
+M	boarding/config/root.json
+Switched to branch 'master_v1'
+M	boarding/config/root.json
+Already on 'master_v1'
+D	boarding/cloudbuild.yaml
+D	boarding/config/root.json
+D	boarding/data/dummy
+Already on 'master_v1'
+[master_v1 2277358] add series. and delete compo dir
+ 3 files changed, 2 insertions(+), 1 deletion(-)
+ rename boarding/cloudbuild.yaml => cloudbuild.yaml (100%)
+ rename {boarding/config => config}/root.json (65%)
+ rename {boarding/data => data}/dummy (100%)
+Everything up-to-date
+Switched to branch 'release/production_1.1.13'
+Your branch is up to date with 'origin/release/production_1.1.13'.
+Updating d64d3f3..2277358
+Fast-forward
+ boarding/cloudbuild.yaml => cloudbuild.yaml | 0
+ {boarding/config => config}/root.json       | 3 ++-
+ {boarding/data => data}/dummy               | 0
+ 3 files changed, 2 insertions(+), 1 deletion(-)
+ rename boarding/cloudbuild.yaml => cloudbuild.yaml (100%)
+ rename {boarding/config => config}/root.json (65%)
+ rename {boarding/data => data}/dummy (100%)
+Counting objects: 4, done.
+Delta compression using up to 16 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 467 bytes | 467.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for release/production_1.1.13:
+remote:   https://bitbucket.org/svc_bs_devloper/hmt-svc-prd/pull-requests/new?source=release/production_1.1.13&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/hmt-svc-prd.git
+   d64d3f3..2277358  release/production_1.1.13 -> release/production_1.1.13
+---------------------
+hmt-svc-prd v1
+0
+M	keel/config/root.json
+Switched to branch 'master_v1'
+M	keel/config/root.json
+Already on 'master_v1'
+D	keel/cloudbuild.yaml
+D	keel/config/root.json
+D	keel/config/svc/config.json
+D	keel/config/svc/google_sheets_api/credentials.json
+D	keel/config/svc/google_sheets_api/token.json
+D	keel/data/dummy
+Already on 'master_v1'
+[master_v1 dab84d8] add series. and delete compo dir
+ 6 files changed, 3 insertions(+), 2 deletions(-)
+ rename keel/cloudbuild.yaml => cloudbuild.yaml (100%)
+ rename {keel/config => config}/root.json (62%)
+ rename {keel/config => config}/svc/config.json (100%)
+ rename {keel/config => config}/svc/google_sheets_api/credentials.json (100%)
+ rename {keel/config => config}/svc/google_sheets_api/token.json (100%)
+ rename {keel/data => data}/dummy (100%)
+Everything up-to-date
+Switched to branch 'release/production_1.1.13'
+Your branch is up to date with 'origin/release/production_1.1.13'.
+Updating 42a63e8..dab84d8
+Fast-forward
+ keel/cloudbuild.yaml => cloudbuild.yaml                            | 0
+ {keel/config => config}/root.json                                  | 5 +++--
+ {keel/config => config}/svc/config.json                        | 0
+ {keel/config => config}/svc/google_sheets_api/credentials.json | 0
+ {keel/config => config}/svc/google_sheets_api/token.json       | 0
+ {keel/data => data}/dummy                                          | 0
+ 6 files changed, 3 insertions(+), 2 deletions(-)
+ rename keel/cloudbuild.yaml => cloudbuild.yaml (100%)
+ rename {keel/config => config}/root.json (62%)
+ rename {keel/config => config}/svc/config.json (100%)
+ rename {keel/config => config}/svc/google_sheets_api/credentials.json (100%)
+ rename {keel/config => config}/svc/google_sheets_api/token.json (100%)
+ rename {keel/data => data}/dummy (100%)
+Counting objects: 4, done.
+Delta compression using up to 16 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 496 bytes | 496.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for release/production_1.1.13:
+remote:   https://bitbucket.org/svc_bs_devloper/hmt-svc-prd/pull-requests/new?source=release/production_1.1.13&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/hmt-svc-prd.git
+   42a63e8..dab84d8  release/production_1.1.13 -> release/production_1.1.13
+---------------------
+hmt-svc-prd v1
+0
+M	p1/config/root.json
+Switched to branch 'master_v1'
+M	p1/config/root.json
+Already on 'master_v1'
+D	p1/cloudbuild.yaml
+D	p1/config/root.json
+Already on 'master_v1'
+[master_v1 5d2376e] add series. and delete compo dir
+ 2 files changed, 2 insertions(+), 1 deletion(-)
+ rename p1/cloudbuild.yaml => cloudbuild.yaml (100%)
+ rename {p1/config => config}/root.json (63%)
+Everything up-to-date
+Switched to branch 'release/production_1.1.13'
+Your branch is up to date with 'origin/release/production_1.1.13'.
+Updating 1a5f4ea..5d2376e
+Fast-forward
+ p1/cloudbuild.yaml => cloudbuild.yaml | 0
+ {p1/config => config}/root.json       | 3 ++-
+ 2 files changed, 2 insertions(+), 1 deletion(-)
+ rename p1/cloudbuild.yaml => cloudbuild.yaml (100%)
+ rename {p1/config => config}/root.json (63%)
+Counting objects: 4, done.
+Delta compression using up to 16 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 432 bytes | 432.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for release/production_1.1.13:
+remote:   https://bitbucket.org/svc_bs_devloper/hmt-svc-prd/pull-requests/new?source=release/production_1.1.13&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/hmt-svc-prd.git
+   1a5f4ea..5d2376e  release/production_1.1.13 -> release/production_1.1.13
+---------------------
+hmt-svc-prd v1
+0
+M	asker/config/root.json
+Switched to branch 'master_v1'
+M	asker/config/root.json
+Already on 'master_v1'
+D	asker/cloudbuild.yaml
+D	asker/config/root.json
+D	asker/config/svc/google_sheets_api/credentials.json
+D	asker/config/svc/google_sheets_api/token.json
+D	asker/data/dummy
+Already on 'master_v1'
+[master_v1 5eca175] add series. and delete compo dir
+ 5 files changed, 2 insertions(+), 1 deletion(-)
+ rename asker/cloudbuild.yaml => cloudbuild.yaml (100%)
+ rename {asker/config => config}/root.json (64%)
+ rename {asker/config => config}/svc/google_sheets_api/credentials.json (100%)
+ rename {asker/config => config}/svc/google_sheets_api/token.json (100%)
+ rename {asker/data => data}/dummy (100%)
+Everything up-to-date
+Switched to branch 'release/production_1.1.13'
+Your branch is up to date with 'origin/release/production_1.1.13'.
+Updating 7413e0b..5eca175
+Fast-forward
+ asker/cloudbuild.yaml => cloudbuild.yaml                            | 0
+ {asker/config => config}/root.json                                  | 3 ++-
+ {asker/config => config}/svc/google_sheets_api/credentials.json | 0
+ {asker/config => config}/svc/google_sheets_api/token.json       | 0
+ {asker/data => data}/dummy                                          | 0
+ 5 files changed, 2 insertions(+), 1 deletion(-)
+ rename asker/cloudbuild.yaml => cloudbuild.yaml (100%)
+ rename {asker/config => config}/root.json (64%)
+ rename {asker/config => config}/svc/google_sheets_api/credentials.json (100%)
+ rename {asker/config => config}/svc/google_sheets_api/token.json (100%)
+ rename {asker/data => data}/dummy (100%)
+Counting objects: 4, done.
+Delta compression using up to 16 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 499 bytes | 499.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for release/production_1.1.13:
+remote:   https://bitbucket.org/svc_bs_devloper/hmt-svc-prd/pull-requests/new?source=release/production_1.1.13&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/hmt-svc-prd.git
+   7413e0b..5eca175  release/production_1.1.13 -> release/production_1.1.13
+---------------------
+hmt-svc-prd v1
+0
+M	newest/config/root.json
+Switched to branch 'master_v1'
+M	newest/config/root.json
+Already on 'master_v1'
+D	newest/cloudbuild.yaml
+D	newest/config/default.message.json
+D	newest/config/root.json
+D	newest/config/svc/google_sheets_api/credentials.json
+D	newest/config/svc/google_sheets_api/token.json
+D	newest/data/dummy
+Already on 'master_v1'
+[master_v1 b67fe34] add series. and delete compo dir
+ 6 files changed, 2 insertions(+), 1 deletion(-)
+ rename newest/cloudbuild.yaml => cloudbuild.yaml (100%)
+ rename {newest/config => config}/default.message.json (100%)
+ rename {newest/config => config}/root.json (65%)
+ rename {newest/config => config}/svc/google_sheets_api/credentials.json (100%)
+ rename {newest/config => config}/svc/google_sheets_api/token.json (100%)
+ rename {newest/data => data}/dummy (100%)
+Everything up-to-date
+Switched to branch 'release/production_1.1.13'
+Your branch is up to date with 'origin/release/production_1.1.13'.
+Updating 35b812f..b67fe34
+Fast-forward
+ newest/cloudbuild.yaml => cloudbuild.yaml                            | 0
+ {newest/config => config}/default.message.json                       | 0
+ {newest/config => config}/root.json                                  | 3 ++-
+ {newest/config => config}/svc/google_sheets_api/credentials.json | 0
+ {newest/config => config}/svc/google_sheets_api/token.json       | 0
+ {newest/data => data}/dummy                                          | 0
+ 6 files changed, 2 insertions(+), 1 deletion(-)
+ rename newest/cloudbuild.yaml => cloudbuild.yaml (100%)
+ rename {newest/config => config}/default.message.json (100%)
+ rename {newest/config => config}/root.json (65%)
+ rename {newest/config => config}/svc/google_sheets_api/credentials.json (100%)
+ rename {newest/config => config}/svc/google_sheets_api/token.json (100%)
+ rename {newest/data => data}/dummy (100%)
+Counting objects: 4, done.
+Delta compression using up to 16 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 539 bytes | 539.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for release/production_1.1.13:
+remote:   https://bitbucket.org/svc_bs_devloper/hmt-svc-prd/pull-requests/new?source=release/production_1.1.13&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/hmt-svc-prd.git
+   35b812f..b67fe34  release/production_1.1.13 -> release/production_1.1.13
+---------------------
+hmt-svc-prd v2 skip
+1
+---------------------
+hmt-svc-prd v2 skip
+1
+---------------------
+hmt-svc-prd v2 skip
+1
+---------------------
+hmt-svc-prd v2 skip
+1
+---------------------
+hmt-svc-stg v1
+1
+---------------------
+hmt-svc-prd v1
+0
+M	boarding/config/root.json
+Switched to branch 'master_v1'
+M	boarding/config/root.json
+Already on 'master_v1'
+D	boarding/cloudbuild.yaml
+D	boarding/config/root.json
+D	boarding/data/dummy
+Already on 'master_v1'
+[master_v1 54fd01c] add series. and delete compo dir
+ 4 files changed, 7 insertions(+), 6 deletions(-)
+ delete mode 100644 boarding/config/root.json
+ rename boarding/cloudbuild.yaml => cloudbuild.yaml (100%)
+ create mode 100644 config/root.json
+ rename {boarding/data => data}/dummy (100%)
+Everything up-to-date
+Switched to branch 'release/production_1.1.13'
+Your branch is up to date with 'origin/release/production_1.1.13'.
+Updating 7eb9451..54fd01c
+Fast-forward
+ boarding/config/root.json                   | 6 ------
+ boarding/cloudbuild.yaml => cloudbuild.yaml | 0
+ config/root.json                            | 7 +++++++
+ {boarding/data => data}/dummy               | 0
+ 4 files changed, 7 insertions(+), 6 deletions(-)
+ delete mode 100644 boarding/config/root.json
+ rename boarding/cloudbuild.yaml => cloudbuild.yaml (100%)
+ create mode 100644 config/root.json
+ rename {boarding/data => data}/dummy (100%)
+Counting objects: 4, done.
+Delta compression using up to 16 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 463 bytes | 463.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for release/production_1.1.13:
+remote:   https://bitbucket.org/svc_bs_devloper/hmt-svc-prd/pull-requests/new?source=release/production_1.1.13&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/hmt-svc-prd.git
+   7eb9451..54fd01c  release/production_1.1.13 -> release/production_1.1.13
+---------------------
+hmt-svc-prd v1
+0
+M	keel/config/root.json
+Switched to branch 'master_v1'
+M	keel/config/root.json
+Already on 'master_v1'
+D	keel/cloudbuild.yaml
+D	keel/config/root.json
+D	keel/config/svc/config.json
+D	keel/config/svc/google_sheets_api/credentials.json
+D	keel/config/svc/google_sheets_api/token.json
+D	keel/data/dummy
+Already on 'master_v1'
+[master_v1 15b0871] add series. and delete compo dir
+ 6 files changed, 2 insertions(+), 1 deletion(-)
+ rename keel/cloudbuild.yaml => cloudbuild.yaml (100%)
+ rename {keel/config => config}/root.json (83%)
+ rename {keel/config => config}/svc/config.json (100%)
+ rename {keel/config => config}/svc/google_sheets_api/credentials.json (100%)
+ rename {keel/config => config}/svc/google_sheets_api/token.json (100%)
+ rename {keel/data => data}/dummy (100%)
+Everything up-to-date
+Switched to branch 'release/production_1.1.13'
+Your branch is up to date with 'origin/release/production_1.1.13'.
+Updating 0fc05b0..15b0871
+Fast-forward
+ keel/cloudbuild.yaml => cloudbuild.yaml                            | 0
+ {keel/config => config}/root.json                                  | 3 ++-
+ {keel/config => config}/svc/config.json                        | 0
+ {keel/config => config}/svc/google_sheets_api/credentials.json | 0
+ {keel/config => config}/svc/google_sheets_api/token.json       | 0
+ {keel/data => data}/dummy                                          | 0
+ 6 files changed, 2 insertions(+), 1 deletion(-)
+ rename keel/cloudbuild.yaml => cloudbuild.yaml (100%)
+ rename {keel/config => config}/root.json (83%)
+ rename {keel/config => config}/svc/config.json (100%)
+ rename {keel/config => config}/svc/google_sheets_api/credentials.json (100%)
+ rename {keel/config => config}/svc/google_sheets_api/token.json (100%)
+ rename {keel/data => data}/dummy (100%)
+Counting objects: 4, done.
+Delta compression using up to 16 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 493 bytes | 493.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for release/production_1.1.13:
+remote:   https://bitbucket.org/svc_bs_devloper/hmt-svc-prd/pull-requests/new?source=release/production_1.1.13&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/hmt-svc-prd.git
+   0fc05b0..15b0871  release/production_1.1.13 -> release/production_1.1.13
+---------------------
+hmt-svc-prd v1
+0
+M	p1/config/root.json
+Switched to branch 'master_v1'
+M	p1/config/root.json
+Already on 'master_v1'
+D	p1/cloudbuild.yaml
+D	p1/config/root.json
+D	p1/config/svc/google_sheets_api/credentials.json
+D	p1/config/svc/google_sheets_api/token.json
+Already on 'master_v1'
+[master_v1 40c68f8] add series. and delete compo dir
+ 4 files changed, 2 insertions(+), 1 deletion(-)
+ rename p1/cloudbuild.yaml => cloudbuild.yaml (100%)
+ rename {p1/config => config}/root.json (82%)
+ rename {p1/config => config}/svc/google_sheets_api/credentials.json (100%)
+ rename {p1/config => config}/svc/google_sheets_api/token.json (100%)
+Everything up-to-date
+Switched to branch 'release/production_1.1.13'
+Your branch is up to date with 'origin/release/production_1.1.13'.
+Updating 2833d04..40c68f8
+Fast-forward
+ p1/cloudbuild.yaml => cloudbuild.yaml                            | 0
+ {p1/config => config}/root.json                                  | 3 ++-
+ {p1/config => config}/svc/google_sheets_api/credentials.json | 0
+ {p1/config => config}/svc/google_sheets_api/token.json       | 0
+ 4 files changed, 2 insertions(+), 1 deletion(-)
+ rename p1/cloudbuild.yaml => cloudbuild.yaml (100%)
+ rename {p1/config => config}/root.json (82%)
+ rename {p1/config => config}/svc/google_sheets_api/credentials.json (100%)
+ rename {p1/config => config}/svc/google_sheets_api/token.json (100%)
+Counting objects: 4, done.
+Delta compression using up to 16 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 465 bytes | 465.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for release/production_1.1.13:
+remote:   https://bitbucket.org/svc_bs_devloper/hmt-svc-prd/pull-requests/new?source=release/production_1.1.13&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/hmt-svc-prd.git
+   2833d04..40c68f8  release/production_1.1.13 -> release/production_1.1.13
+---------------------
+hmt-svc-prd v1
+0
+M	newest/config/root.json
+Switched to branch 'master_v1'
+M	newest/config/root.json
+Already on 'master_v1'
+D	newest/cloudbuild.yaml
+D	newest/config/default.message.json
+D	newest/config/root.json
+D	newest/config/svc/google_sheets_api/credentials.json
+D	newest/config/svc/google_sheets_api/token.json
+D	newest/data/dummy
+Already on 'master_v1'
+[master_v1 f234f6e] add series. and delete compo dir
+ 6 files changed, 2 insertions(+), 1 deletion(-)
+ rename newest/cloudbuild.yaml => cloudbuild.yaml (100%)
+ rename {newest/config => config}/default.message.json (100%)
+ rename {newest/config => config}/root.json (83%)
+ rename {newest/config => config}/svc/google_sheets_api/credentials.json (100%)
+ rename {newest/config => config}/svc/google_sheets_api/token.json (100%)
+ rename {newest/data => data}/dummy (100%)
+Everything up-to-date
+Switched to branch 'release/production_1.1.13'
+Your branch is up to date with 'origin/release/production_1.1.13'.
+Updating 81f246b..f234f6e
+Fast-forward
+ newest/cloudbuild.yaml => cloudbuild.yaml                            | 0
+ {newest/config => config}/default.message.json                       | 0
+ {newest/config => config}/root.json                                  | 3 ++-
+ {newest/config => config}/svc/google_sheets_api/credentials.json | 0
+ {newest/config => config}/svc/google_sheets_api/token.json       | 0
+ {newest/data => data}/dummy                                          | 0
+ 6 files changed, 2 insertions(+), 1 deletion(-)
+ rename newest/cloudbuild.yaml => cloudbuild.yaml (100%)
+ rename {newest/config => config}/default.message.json (100%)
+ rename {newest/config => config}/root.json (83%)
+ rename {newest/config => config}/svc/google_sheets_api/credentials.json (100%)
+ rename {newest/config => config}/svc/google_sheets_api/token.json (100%)
+ rename {newest/data => data}/dummy (100%)
+Counting objects: 4, done.
+Delta compression using up to 16 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 540 bytes | 540.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for release/production_1.1.13:
+remote:   https://bitbucket.org/svc_bs_devloper/hmt-svc-prd/pull-requests/new?source=release/production_1.1.13&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/hmt-svc-prd.git
+   81f246b..f234f6e  release/production_1.1.13 -> release/production_1.1.13
+---------------------
+hmt-svc-prd v1
+0
+M	asker/config/root.json
+Switched to branch 'master_v1'
+M	asker/config/root.json
+Already on 'master_v1'
+D	asker/cloudbuild.yaml
+D	asker/config/root.json
+D	asker/config/svc/google_sheets_api/credentials.json
+D	asker/config/svc/google_sheets_api/token.json
+D	asker/data/dummy
+Already on 'master_v1'
+[master_v1 773ab0d] add series. and delete compo dir
+ 5 files changed, 2 insertions(+), 1 deletion(-)
+ rename asker/cloudbuild.yaml => cloudbuild.yaml (100%)
+ rename {asker/config => config}/root.json (83%)
+ rename {asker/config => config}/svc/google_sheets_api/credentials.json (100%)
+ rename {asker/config => config}/svc/google_sheets_api/token.json (100%)
+ rename {asker/data => data}/dummy (100%)
+Everything up-to-date
+Switched to branch 'release/production_1.1.13'
+Your branch is up to date with 'origin/release/production_1.1.13'.
+Updating d8ab424..773ab0d
+Fast-forward
+ asker/cloudbuild.yaml => cloudbuild.yaml                            | 0
+ {asker/config => config}/root.json                                  | 3 ++-
+ {asker/config => config}/svc/google_sheets_api/credentials.json | 0
+ {asker/config => config}/svc/google_sheets_api/token.json       | 0
+ {asker/data => data}/dummy                                          | 0
+ 5 files changed, 2 insertions(+), 1 deletion(-)
+ rename asker/cloudbuild.yaml => cloudbuild.yaml (100%)
+ rename {asker/config => config}/root.json (83%)
+ rename {asker/config => config}/svc/google_sheets_api/credentials.json (100%)
+ rename {asker/config => config}/svc/google_sheets_api/token.json (100%)
+ rename {asker/data => data}/dummy (100%)
+Counting objects: 4, done.
+Delta compression using up to 16 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 497 bytes | 497.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for release/production_1.1.13:
+remote:   https://bitbucket.org/svc_bs_devloper/hmt-svc-prd/pull-requests/new?source=release/production_1.1.13&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/hmt-svc-prd.git
+   d8ab424..773ab0d  release/production_1.1.13 -> release/production_1.1.13
+---------------------
+hmt-svc-prd v1
+0
+M	asker/config/root.json
+Switched to branch 'master_v1'
+M	asker/config/root.json
+Already on 'master_v1'
+D	asker/cloudbuild.yaml
+D	asker/config/root.json
+D	asker/config/svc/google_sheets_api/credentials.json
+D	asker/config/svc/google_sheets_api/token.json
+D	asker/data/dummy
+Already on 'master_v1'
+[master_v1 d23d392] add series. and delete compo dir
+ 5 files changed, 2 insertions(+), 1 deletion(-)
+ rename asker/cloudbuild.yaml => cloudbuild.yaml (100%)
+ rename {asker/config => config}/root.json (83%)
+ rename {asker/config => config}/svc/google_sheets_api/credentials.json (100%)
+ rename {asker/config => config}/svc/google_sheets_api/token.json (100%)
+ rename {asker/data => data}/dummy (100%)
+Everything up-to-date
+Switched to branch 'release/production_1.1.13'
+Your branch is up to date with 'origin/release/production_1.1.13'.
+Updating 5c535dd..d23d392
+Fast-forward
+ asker/cloudbuild.yaml => cloudbuild.yaml                            | 0
+ {asker/config => config}/root.json                                  | 3 ++-
+ {asker/config => config}/svc/google_sheets_api/credentials.json | 0
+ {asker/config => config}/svc/google_sheets_api/token.json       | 0
+ {asker/data => data}/dummy                                          | 0
+ 5 files changed, 2 insertions(+), 1 deletion(-)
+ rename asker/cloudbuild.yaml => cloudbuild.yaml (100%)
+ rename {asker/config => config}/root.json (83%)
+ rename {asker/config => config}/svc/google_sheets_api/credentials.json (100%)
+ rename {asker/config => config}/svc/google_sheets_api/token.json (100%)
+ rename {asker/data => data}/dummy (100%)
+Counting objects: 4, done.
+Delta compression using up to 16 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 493 bytes | 493.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for release/production_1.1.13:
+remote:   https://bitbucket.org/svc_bs_devloper/hmt-svc-prd/pull-requests/new?source=release/production_1.1.13&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/hmt-svc-prd.git
+   5c535dd..d23d392  release/production_1.1.13 -> release/production_1.1.13
+---------------------
+hmt-svc-prd v1
+0
+M	asker/config/root.json
+Switched to branch 'master_v1'
+M	asker/config/root.json
+Already on 'master_v1'
+D	asker/cloudbuild.yaml
+D	asker/config/root.json
+D	asker/config/svc/google_sheets_api/credentials.json
+D	asker/config/svc/google_sheets_api/token.json
+D	asker/data/dummy
+Already on 'master_v1'
+[master_v1 319dc70] add series. and delete compo dir
+ 5 files changed, 2 insertions(+), 1 deletion(-)
+ rename asker/cloudbuild.yaml => cloudbuild.yaml (100%)
+ rename {asker/config => config}/root.json (83%)
+ rename {asker/config => config}/svc/google_sheets_api/credentials.json (100%)
+ rename {asker/config => config}/svc/google_sheets_api/token.json (100%)
+ rename {asker/data => data}/dummy (100%)
+Everything up-to-date
+Switched to branch 'release/production_1.1.13'
+Your branch is up to date with 'origin/release/production_1.1.13'.
+Updating 470ce48..319dc70
+Fast-forward
+ asker/cloudbuild.yaml => cloudbuild.yaml                            | 0
+ {asker/config => config}/root.json                                  | 3 ++-
+ {asker/config => config}/svc/google_sheets_api/credentials.json | 0
+ {asker/config => config}/svc/google_sheets_api/token.json       | 0
+ {asker/data => data}/dummy                                          | 0
+ 5 files changed, 2 insertions(+), 1 deletion(-)
+ rename asker/cloudbuild.yaml => cloudbuild.yaml (100%)
+ rename {asker/config => config}/root.json (83%)
+ rename {asker/config => config}/svc/google_sheets_api/credentials.json (100%)
+ rename {asker/config => config}/svc/google_sheets_api/token.json (100%)
+ rename {asker/data => data}/dummy (100%)
+Counting objects: 4, done.
+Delta compression using up to 16 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 494 bytes | 494.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for release/production_1.1.13:
+remote:   https://bitbucket.org/svc_bs_devloper/hmt-svc-prd/pull-requests/new?source=release/production_1.1.13&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/hmt-svc-prd.git
+   470ce48..319dc70  release/production_1.1.13 -> release/production_1.1.13
+---------------------
+hmt-svc-prd v1
+0
+M	boarding/config/root.json
+Switched to branch 'master_v1'
+M	boarding/config/root.json
+Already on 'master_v1'
+D	boarding/cloudbuild.yaml
+D	boarding/config/root.json
+D	boarding/data/dummy
+Already on 'master_v1'
+[master_v1 7a49a2d] add series. and delete compo dir
+ 4 files changed, 7 insertions(+), 6 deletions(-)
+ delete mode 100644 boarding/config/root.json
+ rename boarding/cloudbuild.yaml => cloudbuild.yaml (100%)
+ create mode 100644 config/root.json
+ rename {boarding/data => data}/dummy (100%)
+Everything up-to-date
+Switched to branch 'release/production_1.1.13'
+Your branch is up to date with 'origin/release/production_1.1.13'.
+Updating 19b1826..7a49a2d
+Fast-forward
+ boarding/config/root.json                   | 6 ------
+ boarding/cloudbuild.yaml => cloudbuild.yaml | 0
+ config/root.json                            | 7 +++++++
+ {boarding/data => data}/dummy               | 0
+ 4 files changed, 7 insertions(+), 6 deletions(-)
+ delete mode 100644 boarding/config/root.json
+ rename boarding/cloudbuild.yaml => cloudbuild.yaml (100%)
+ create mode 100644 config/root.json
+ rename {boarding/data => data}/dummy (100%)
+Counting objects: 4, done.
+Delta compression using up to 16 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 464 bytes | 464.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for release/production_1.1.13:
+remote:   https://bitbucket.org/svc_bs_devloper/hmt-svc-prd/pull-requests/new?source=release/production_1.1.13&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/hmt-svc-prd.git
+   19b1826..7a49a2d  release/production_1.1.13 -> release/production_1.1.13
+---------------------
+hmt-svc-prd v1
+0
+M	keel/config/root.json
+Switched to branch 'master_v1'
+M	keel/config/root.json
+Already on 'master_v1'
+D	keel/cloudbuild.yaml
+D	keel/config/root.json
+D	keel/config/svc/config.json
+D	keel/config/svc/google_sheets_api/credentials.json
+D	keel/config/svc/google_sheets_api/token.json
+D	keel/data/dummy
+Already on 'master_v1'
+[master_v1 918048a] add series. and delete compo dir
+ 6 files changed, 2 insertions(+), 1 deletion(-)
+ rename keel/cloudbuild.yaml => cloudbuild.yaml (100%)
+ rename {keel/config => config}/root.json (83%)
+ rename {keel/config => config}/svc/config.json (100%)
+ rename {keel/config => config}/svc/google_sheets_api/credentials.json (100%)
+ rename {keel/config => config}/svc/google_sheets_api/token.json (100%)
+ rename {keel/data => data}/dummy (100%)
+Everything up-to-date
+Switched to branch 'release/production_1.1.13'
+Your branch is up to date with 'origin/release/production_1.1.13'.
+Updating 3c80300..918048a
+Fast-forward
+ keel/cloudbuild.yaml => cloudbuild.yaml                            | 0
+ {keel/config => config}/root.json                                  | 3 ++-
+ {keel/config => config}/svc/config.json                        | 0
+ {keel/config => config}/svc/google_sheets_api/credentials.json | 0
+ {keel/config => config}/svc/google_sheets_api/token.json       | 0
+ {keel/data => data}/dummy                                          | 0
+ 6 files changed, 2 insertions(+), 1 deletion(-)
+ rename keel/cloudbuild.yaml => cloudbuild.yaml (100%)
+ rename {keel/config => config}/root.json (83%)
+ rename {keel/config => config}/svc/config.json (100%)
+ rename {keel/config => config}/svc/google_sheets_api/credentials.json (100%)
+ rename {keel/config => config}/svc/google_sheets_api/token.json (100%)
+ rename {keel/data => data}/dummy (100%)
+Counting objects: 4, done.
+Delta compression using up to 16 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 495 bytes | 495.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for release/production_1.1.13:
+remote:   https://bitbucket.org/svc_bs_devloper/hmt-svc-prd/pull-requests/new?source=release/production_1.1.13&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/hmt-svc-prd.git
+   3c80300..918048a  release/production_1.1.13 -> release/production_1.1.13
+---------------------
+hmt-svc-prd v1
+0
+M	newest/config/root.json
+Switched to branch 'master_v1'
+M	newest/config/root.json
+Already on 'master_v1'
+D	newest/cloudbuild.yaml
+D	newest/config/default.message.json
+D	newest/config/root.json
+D	newest/config/svc/google_sheets_api/credentials.json
+D	newest/config/svc/google_sheets_api/token.json
+D	newest/data/dummy
+Already on 'master_v1'
+[master_v1 67c1688] add series. and delete compo dir
+ 6 files changed, 2 insertions(+), 1 deletion(-)
+ rename newest/cloudbuild.yaml => cloudbuild.yaml (100%)
+ rename {newest/config => config}/default.message.json (100%)
+ rename {newest/config => config}/root.json (83%)
+ rename {newest/config => config}/svc/google_sheets_api/credentials.json (100%)
+ rename {newest/config => config}/svc/google_sheets_api/token.json (100%)
+ rename {newest/data => data}/dummy (100%)
+Everything up-to-date
+Switched to branch 'release/production_1.1.13'
+Your branch is up to date with 'origin/release/production_1.1.13'.
+Updating 4427f96..67c1688
+Fast-forward
+ newest/cloudbuild.yaml => cloudbuild.yaml                            | 0
+ {newest/config => config}/default.message.json                       | 0
+ {newest/config => config}/root.json                                  | 3 ++-
+ {newest/config => config}/svc/google_sheets_api/credentials.json | 0
+ {newest/config => config}/svc/google_sheets_api/token.json       | 0
+ {newest/data => data}/dummy                                          | 0
+ 6 files changed, 2 insertions(+), 1 deletion(-)
+ rename newest/cloudbuild.yaml => cloudbuild.yaml (100%)
+ rename {newest/config => config}/default.message.json (100%)
+ rename {newest/config => config}/root.json (83%)
+ rename {newest/config => config}/svc/google_sheets_api/credentials.json (100%)
+ rename {newest/config => config}/svc/google_sheets_api/token.json (100%)
+ rename {newest/data => data}/dummy (100%)
+Counting objects: 4, done.
+Delta compression using up to 16 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 542 bytes | 542.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for release/production_1.1.13:
+remote:   https://bitbucket.org/svc_bs_devloper/hmt-svc-prd/pull-requests/new?source=release/production_1.1.13&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/hmt-svc-prd.git
+   4427f96..67c1688  release/production_1.1.13 -> release/production_1.1.13
+---------------------
+hmt-svc-prd v1
+0
+M	asker/config/root.json
+Switched to branch 'master_v1'
+M	asker/config/root.json
+Already on 'master_v1'
+D	asker/cloudbuild.yaml
+D	asker/config/root.json
+D	asker/config/svc/google_sheets_api/credentials.json
+D	asker/config/svc/google_sheets_api/token.json
+D	asker/data/dummy
+Already on 'master_v1'
+[master_v1 faa5d54] add series. and delete compo dir
+ 5 files changed, 2 insertions(+), 1 deletion(-)
+ rename asker/cloudbuild.yaml => cloudbuild.yaml (100%)
+ rename {asker/config => config}/root.json (83%)
+ rename {asker/config => config}/svc/google_sheets_api/credentials.json (100%)
+ rename {asker/config => config}/svc/google_sheets_api/token.json (100%)
+ rename {asker/data => data}/dummy (100%)
+To bitbucket.org:svc_bs_devloper/hmt-svc-prd.git
+ ! [rejected]        release/master_1.1.5 -> release/master_1.1.5 (non-fast-forward)
+error: failed to push some refs to 'git@bitbucket.org:svc_bs_devloper/hmt-svc-prd.git'
+hint: Updates were rejected because a pushed branch tip is behind its remote
+hint: counterpart. Check out this branch and integrate the remote changes
+hint: (e.g. 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+Switched to branch 'release/production_1.1.13'
+Your branch is up to date with 'origin/release/production_1.1.13'.
+Updating 6221117..faa5d54
+Fast-forward
+ asker/cloudbuild.yaml => cloudbuild.yaml                            | 0
+ {asker/config => config}/root.json                                  | 3 ++-
+ {asker/config => config}/svc/google_sheets_api/credentials.json | 0
+ {asker/config => config}/svc/google_sheets_api/token.json       | 0
+ {asker/data => data}/dummy                                          | 0
+ 5 files changed, 2 insertions(+), 1 deletion(-)
+ rename asker/cloudbuild.yaml => cloudbuild.yaml (100%)
+ rename {asker/config => config}/root.json (83%)
+ rename {asker/config => config}/svc/google_sheets_api/credentials.json (100%)
+ rename {asker/config => config}/svc/google_sheets_api/token.json (100%)
+ rename {asker/data => data}/dummy (100%)
+Counting objects: 4, done.
+Delta compression using up to 16 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 496 bytes | 496.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for release/production_1.1.13:
+remote:   https://bitbucket.org/svc_bs_devloper/hmt-svc-prd/pull-requests/new?source=release/production_1.1.13&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/hmt-svc-prd.git
+   6221117..faa5d54  release/production_1.1.13 -> release/production_1.1.13
+ ! [rejected]        release/master_1.1.5 -> release/master_1.1.5 (non-fast-forward)
+error: failed to push some refs to 'git@bitbucket.org:svc_bs_devloper/hmt-svc-prd.git'
+hint: Updates were rejected because a pushed branch tip is behind its remote
+hint: counterpart. Check out this branch and integrate the remote changes
+hint: (e.g. 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+---------------------
+hmt-svc-prd v1
+0
+M	asker/config/root.json
+Switched to branch 'master_v1'
+M	asker/config/root.json
+Already on 'master_v1'
+D	asker/cloudbuild.yaml
+D	asker/config/root.json
+D	asker/config/svc/api_connect.json
+D	asker/config/svc/google_sheets_api/credentials.json
+D	asker/config/svc/google_sheets_api/token.json
+D	asker/data/dummy
+Already on 'master_v1'
+[master_v1 1b17289] add series. and delete compo dir
+ 6 files changed, 2 insertions(+), 1 deletion(-)
+ rename asker/cloudbuild.yaml => cloudbuild.yaml (100%)
+ rename {asker/config => config}/root.json (83%)
+ rename {asker/config => config}/svc/api_connect.json (100%)
+ rename {asker/config => config}/svc/google_sheets_api/credentials.json (100%)
+ rename {asker/config => config}/svc/google_sheets_api/token.json (100%)
+ rename {asker/data => data}/dummy (100%)
+Everything up-to-date
+Switched to branch 'release/production_1.1.13'
+Your branch is up to date with 'origin/release/production_1.1.13'.
+Updating 945fda7..1b17289
+Fast-forward
+ asker/cloudbuild.yaml => cloudbuild.yaml                            | 0
+ {asker/config => config}/root.json                                  | 3 ++-
+ {asker/config => config}/svc/api_connect.json                   | 0
+ {asker/config => config}/svc/google_sheets_api/credentials.json | 0
+ {asker/config => config}/svc/google_sheets_api/token.json       | 0
+ {asker/data => data}/dummy                                          | 0
+ 6 files changed, 2 insertions(+), 1 deletion(-)
+ rename asker/cloudbuild.yaml => cloudbuild.yaml (100%)
+ rename {asker/config => config}/root.json (83%)
+ rename {asker/config => config}/svc/api_connect.json (100%)
+ rename {asker/config => config}/svc/google_sheets_api/credentials.json (100%)
+ rename {asker/config => config}/svc/google_sheets_api/token.json (100%)
+ rename {asker/data => data}/dummy (100%)
+Counting objects: 4, done.
+Delta compression using up to 16 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 496 bytes | 496.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for release/production_1.1.13:
+remote:   https://bitbucket.org/svc_bs_devloper/hmt-svc-prd/pull-requests/new?source=release/production_1.1.13&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/hmt-svc-prd.git
+   945fda7..1b17289  release/production_1.1.13 -> release/production_1.1.13
+---------------------
+hmt-svc-prd v1
+0
+M	asker/config/root.json
+Switched to branch 'master_v1'
+M	asker/config/root.json
+Already on 'master_v1'
+D	asker/cloudbuild.yaml
+D	asker/config/root.json
+D	asker/config/svc/google_sheets_api/credentials.json
+D	asker/config/svc/google_sheets_api/token.json
+D	asker/data/dummy
+Already on 'master_v1'
+[master_v1 ad0f820] add series. and delete compo dir
+ 5 files changed, 2 insertions(+), 1 deletion(-)
+ rename asker/cloudbuild.yaml => cloudbuild.yaml (100%)
+ rename {asker/config => config}/root.json (83%)
+ rename {asker/config => config}/svc/google_sheets_api/credentials.json (100%)
+ rename {asker/config => config}/svc/google_sheets_api/token.json (100%)
+ rename {asker/data => data}/dummy (100%)
+Everything up-to-date
+Switched to branch 'release/production_1.1.13'
+Your branch is up to date with 'origin/release/production_1.1.13'.
+Updating 749ff78..ad0f820
+Fast-forward
+ asker/cloudbuild.yaml => cloudbuild.yaml                            | 0
+ {asker/config => config}/root.json                                  | 3 ++-
+ {asker/config => config}/svc/google_sheets_api/credentials.json | 0
+ {asker/config => config}/svc/google_sheets_api/token.json       | 0
+ {asker/data => data}/dummy                                          | 0
+ 5 files changed, 2 insertions(+), 1 deletion(-)
+ rename asker/cloudbuild.yaml => cloudbuild.yaml (100%)
+ rename {asker/config => config}/root.json (83%)
+ rename {asker/config => config}/svc/google_sheets_api/credentials.json (100%)
+ rename {asker/config => config}/svc/google_sheets_api/token.json (100%)
+ rename {asker/data => data}/dummy (100%)
+Counting objects: 4, done.
+Delta compression using up to 16 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 494 bytes | 494.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create pull request for release/production_1.1.13:
+remote:   https://bitbucket.org/svc_bs_devloper/hmt-svc-prd/pull-requests/new?source=release/production_1.1.13&t=1
+remote: 
+To bitbucket.org:svc_bs_devloper/hmt-svc-prd.git
+   749ff78..ad0f820  release/production_1.1.13 -> release/production_1.1.13
+---------------------
+hmt-svc-prd v2 skip
+1
+---------------------
+hmt-svc-prd v2 skip
+1
+---------------------
+hmt-svc-prd v2 skip
+1
+---------------------
+hmt-svc-prd v2 skip
+1
+---------------------
+hmt-svc-prd v2 skip
+1
+---------------------
+hmt-svc-prd v2 skip
+1
+---------------------
+hmt-svc-prd v2 skip
+1
+

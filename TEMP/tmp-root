@@ -1,0 +1,5 @@
+appli_name tugcar
+server_code svc
+environment prd
+series v2
+dummy_commit 

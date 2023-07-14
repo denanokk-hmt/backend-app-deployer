@@ -1,0 +1,138 @@
+#!/bin/bash
+
+##########################
+#ディレクト情報を取得
+##########################
+
+#hmt_deployerのdir位置,このSCRIPTの位置
+DEPD=`pwd`
+INITD=${DEPD}/SHELL/init
+
+#CONFIG/configの位置
+config=${DEPD}/CONFIG/config
+
+#configに書かれたsettings,builds,releaseのDirパスを取得
+settingsd=`cat $config | awk '$1=="settings_dir" {print $2}'`
+buildsd=`cat $config | awk '$1=="builds_dir" {print $2}'`
+released=`cat $config | awk '$1=="release_dir" {print $2}'`
+
+echo ""
+echo "======CONFIG/configのDir達======="
+echo $settingsd > ./TEMP/tmp-init_dir_list
+echo $buildsd >> ./TEMP/tmp-init_dir_list 
+echo $released >> ./TEMP/tmp-init_dir_list 
+
+#directory check
+while read line; do
+  if [ -d $line ]; then
+    echo "directory is OK.:::$line"
+  else
+    echo "Sorry directory is NG.:::$line"
+    exit 0
+  fi
+done < ./TEMP/tmp-init_dir_list 
+
+
+##########################
+#セットアップするリポジトリを取得
+##########################
+
+#同じDirにいるlistから取得
+repo_settings=`cat ${INITD}/setup_repo_list | awk '$1=="settings" {print $2}'`
+repo_builds=`cat ${INITD}/setup_repo_list | awk '$1=="builds" {print $2}'`
+repo_release=`cat ${INITD}/setup_repo_list | awk '$1=="release" {print $2}'`
+
+
+##########################
+#Validation & Confirmation
+##########################
+
+#dir=$1
+#filter=$2
+#
+#if [ -z "${dir}" ]; then
+#  echo "Sorry. please 1st arg 'old' or 'new'"
+#  exit 0
+#fi
+#
+echo ""
+echo ""
+echo "Are you sure?
+Yes:1
+No:0"
+read input
+if [ $input = '1' ];then
+  :
+else
+  echo "Sorry.."
+  exit 0
+fi
+
+
+
+##########################
+#
+##########################
+
+#setup_repo_listを読み込んで、repo clone, hanger setを行う
+while read line; do
+
+  kind=`echo $line | awk '{print $1}'`
+  repo=`echo $line | awk '{print $2}'`
+  hanger=`echo $line | awk '{print $3}'`
+
+  if [ "$kind" = "settings" ]; then
+    repod=$settingsd
+  elif [ "$kind" = "builds" ]; then
+    repod=$buildsd
+  elif [ "$kind" = "release" ]; then
+    repod=$released
+  else
+    echo "kind error..."
+    continue
+  fi
+  echo "============ $kind::$repo::$hanger============="
+
+  #Dirのフィルタ,Existならスキップ
+  echo $repod/$repo
+  if [ -d $repod/$repo ]; then
+    echo "======= スキップ exists::$repod/$repo ======="
+    echo ""
+    continue
+  else
+    echo "======= クローン ::$repod======="
+    #リポをクローンして
+    (cd $repod && \
+    git clone git@bitbucket.org:svc_bs_devloper/$repo.git )
+    
+    #ブランチをチェックアウト(settingsとreleaseはmasterだけでよい)
+    if [ "$kind" = "builds" ]; then
+      echo "======= チェックアウトブランチ::$repo======="
+      (cd $repod/$repo && \
+      git checkout develop && \
+      git checkout staging && \
+      git checkout master )
+    fi
+
+    #hanger指定の場合
+    if [ "$kind" = "builds" ] && [ "${hanger}" = "hanger" ]; then
+      echo "======= ハンガー初期化::$repo======="
+echo $kind
+echo $hanger
+      #hangerをinit
+      (cd $repod/$repo && \
+      ./init_hanger_setup init)
+      
+      #hagerブランチをチェックアウト
+      (cd $repod/$repo/hanger && \
+      git checkout develop && \
+      git checkout staging && \
+      git checkout master )
+    fi
+  fi
+  
+  echo ""
+done < ${INITD}/setup_repo_list
+
+
+echo "fin." 

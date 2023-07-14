@@ -1,0 +1,7 @@
+{
+  "appli_name" : "###APPLI###",
+  "server_code" : "###SVC###",
+  "environment" : "###ENV###",
+  "series" : "###SERIES###",
+  "dummy_commit" : ""
+}
